@@ -53,7 +53,8 @@ Example : `{
     This file defines all the intents , entities , responses , actions , session_config and any other requires information that the bot may need .
     
 # High Level Design
--image architecture from dbs laptop [todo]
+
+![Alt text](/rasa_archi.jpg?raw=true "Architecture")
 
 1. **Language Detection** : All indian languages ( Native Script ) & Hindi written in English
    - For detecting native script languages we are using `textblob` package.
