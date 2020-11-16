@@ -66,7 +66,7 @@ Example : `{
 3. **Dense Multilingual Embeddings** : We hava used a custom component and integrate `indic-bert` a multi-lingual AlBert model which was specially trained on 12 major indic                                            languages. 
 
 4. **Rasa NLU** : Rasa NLU takes input training data as well as the trained classfication models and contextualy predict the appropriate responses to the user.
-- images : config.yml [todo]
+![Alt text](/config_img.png?raw=true "Pipeline Config")
 
 5. **DiET Classifier** : Dual Intent and Entity classifier takes all the dense and sparse features created by the other components in the pipeline and outputs the intents and                            entities in the user data and their confidenses . These are then used by the Rasa Core. 
 
