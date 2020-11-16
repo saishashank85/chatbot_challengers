@@ -45,54 +45,54 @@ Example : `{
       a. NLU.yml
       b. rules.yml
       c. stories.yml
-    NLU.yml : This file contains the training data used for the intent and entity classifier.
+    **NLU.yml** : This file contains the training data used for the intent and entity classifier.
               We have also define synonyms , lookup tables & regex's in this file for the banking terms .
-    rules.yml : Rules contain stories that the `RulePolicy` in rasa trains on . If the `RulePolicy` is used , when ever any rules is met it would be the default response                         irrespective of other actions .
-    stories.yml : This file contains user stories that the `Rasa Core` trains on . The conversation flow is decided by the model based on this training data.
+    **rules.yml** : Rules contain stories that the `RulePolicy` in rasa trains on . If the `RulePolicy` is used , when ever any rules is met it would be the default response                         irrespective of other actions .
+    **stories.yml** : This file contains user stories that the `Rasa Core` trains on . The conversation flow is decided by the model based on this training data.
   ### domain/ :
     This file defines all the intents , entities , responses , actions , session_config and any other requires information that the bot may need .
     
 # High Level Design
 -image architecture from dbs laptop [todo]
 
-1. Language Detection : All indian languages ( Native Script ) & Hindi written in English
+1. **Language Detection** : All indian languages ( Native Script ) & Hindi written in English
    - For detecting native script languages we are using `textblob` package.
    - For detecting hinglish ( hindi written in english ) we have trained our custom model using supervised classification on a hinglish corpus.
    
-2. Standardisation : We do the spell check and abbrivation expansion . We also normalise all numbers written in text to their numeric form.
+2. **Standardisation** : We do the spell check and abbrivation expansion . We also normalise all numbers written in text to their numeric form.
    - Example : ` Mera acc se ten thousand transfer karna he` -----> `Mere account se 10000 transfer karna he`
    
-3. Dense Multilingual Embeddings : We hava used a custom component and integrate `indic-bert` a multi-lingual AlBert model which was specially trained on 12 major indic                                            languages. 
+3. **Dense Multilingual Embeddings** : We hava used a custom component and integrate `indic-bert` a multi-lingual AlBert model which was specially trained on 12 major indic                                            languages. 
 
-4. Rasa NLU : Rasa NLU takes input training data as well as the trained classfication models and contextualy predict the appropriate responses to the user.
+4. **Rasa NLU** : Rasa NLU takes input training data as well as the trained classfication models and contextualy predict the appropriate responses to the user.
 - images : config.yml [todo]
 
-5. DiET Classifier : Dual Intent and Entity classifier takes all the dense and sparse features created by the other components in the pipeline and outputs the intents and                            entities in the user data and their confidenses . These are then used by the Rasa Core. 
+5. **DiET Classifier** : Dual Intent and Entity classifier takes all the dense and sparse features created by the other components in the pipeline and outputs the intents and                            entities in the user data and their confidenses . These are then used by the Rasa Core. 
 
-   - Examples : `I want to make a [upi](transaction_type) transaction` 
+   - **Examples** : `I want to make a [upi](transaction_type) transaction` 
       -          Entity : transaction_type 
       -          Value : 'upi'
 
-6. Custom Entity Detection : We open-source NER framework specialised for indian languages . This recognises the dates , currency , amount , phone number and time . 
+6. **Custom Entity Detection** : We open-source NER framework specialised for indian languages . This recognises the dates , currency , amount , phone number and time . 
    - Time : Detect time from given text.
       - Example : tomorrow morning at 5
       -           कल सुबह ५ बजे, 
       -           kal subah 5 baje
       - Languages : 'en', 'hi', 'gu', 'bn', 'mr', 'ta'
       
-    - Date : Detect date from given text.
+    - **Date** : Detect date from given text.
       - Exmaple : next monday
       -           agle somvar
       -           अगले सोमवार
       - Languages : 'en', 'hi', 'gu', 'bn', 'mr', 'ta'
-    - Numbers : Detect number and units from given text
+    - **Numbers** : Detect number and units from given text
       - Example : 50 rs per person
       -           ५ किलो चावल
       -           मुझे एक लीटर ऑइल चाहिए
       -           ९८३३४३०५३५
       - Languages : 'en', 'hi', 'gu', 'bn', 'mr', 'ta'
       
-7. FallBack Policy : If the Rasa NLU model prediction confidence is low for a given user query , we can define our own custom actions and also modify the thresholds for the policy. This avoids giving improper responses if the user input is not understood / classified properly. We can also define our custom actions to ask the user for the closest possible predictions for their query(TwoStageFallBack Policy)
+7. **FallBack Policy** : If the Rasa NLU model prediction confidence is low for a given user query , we can define our own custom actions and also modify the thresholds for the policy. This avoids giving improper responses if the user input is not understood / classified properly. We can also define our custom actions to ask the user for the closest possible predictions for their query(TwoStageFallBack Policy)
       
 # Features 
 1. Indic Bert in the Chatbot enables us to train the chatbot in 12 indian languages independently without the need for multiple models irrespective of the user stories logic. 
