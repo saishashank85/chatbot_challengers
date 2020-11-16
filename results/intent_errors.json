@@ -1,0 +1,3114 @@
+[
+  {
+    "text": "let's go",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.2981932759284973
+    }
+  },
+  {
+    "text": "help me",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "plz tell me",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "good night",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "yes",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "y",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.35787105560302734
+    }
+  },
+  {
+    "text": "indeed",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "of course",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "that sounds good",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "go ahead",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0939\u093e",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.28067725896835327
+    }
+  },
+  {
+    "text": "no",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "n",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "I don't think so",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "don't like that",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "no way",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "not really",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "uhmm nah",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "nahi",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0928\u0939\u0940",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "not getting it",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "feeling like a king",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "I am great",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "I am going to save the world",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "super stoked",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "cannot understand your answer",
+    "intent": "main menu",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "that is not my question",
+    "intent": "main menu",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "no that did not help",
+    "intent": "main menu",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "firse bataye",
+    "intent": "main menu",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "nai samaj me aata",
+    "intent": "main menu",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "that was not what i asked",
+    "intent": "main menu",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "bekar bot hai ye",
+    "intent": "main menu",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "please repeat",
+    "intent": "main menu",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "how can you help me",
+    "intent": "main menu",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "can u answer my question",
+    "intent": "main menu",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "go to start",
+    "intent": "main menu",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Where   is branch in Hyderabad ?",
+    "intent": "branch_info",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Which is nearest Branch close to me?",
+    "intent": "branch_info",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "How do I  get my IFSC Code?",
+    "intent": "branch_info",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "What the website address?",
+    "intent": "branch_info",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u092e\u0947\u0930\u0947 \u0928\u093f\u0915\u091f\u0924\u092e \u0936\u093e\u0916\u093e",
+    "intent": "branch_info",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u092e\u0947\u0930\u0947 \u092a\u093e\u0938  \u092c\u094d\u0930\u093e\u0902\u091a \u0915\u094c\u0928 \u0938\u0940 \u0939\u0948?",
+    "intent": "branch_info",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "digiSavings account not operational",
+    "intent": "branch_info",
+    "intent_prediction": {
+      "name": "account_opening",
+      "confidence": 0.25364506244659424
+    }
+  },
+  {
+    "text": "what is nearby CCD store for biometric verification",
+    "intent": "Biometrics",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "verifcation  code not received",
+    "intent": "Biometrics",
+    "intent_prediction": {
+      "name": "login issues",
+      "confidence": 0.22869974374771118
+    }
+  },
+  {
+    "text": "agent dnt call for appointment",
+    "intent": "Biometrics",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "KYC VERIFICATION KARNA HAI",
+    "intent": "Biometrics",
+    "intent_prediction": {
+      "name": "login issues",
+      "confidence": 0.21469397842884064
+    }
+  },
+  {
+    "text": "\u092b\u093f\u0902\u0917\u0930\u092a\u094d\u0930\u093f\u0902\u091f \u091c\u093e\u0901\u091a",
+    "intent": "Biometrics",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "kya kagaz chahiye",
+    "intent": "account_opening",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Aadhar OTP not recvd",
+    "intent": "account_opening",
+    "intent_prediction": {
+      "name": "login issues",
+      "confidence": 0.23437264561653137
+    }
+  },
+  {
+    "text": "\u0905\u0915\u093e\u0909\u0928\u094d\u091f kaise open karna ?",
+    "intent": "account_opening",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "How do  login to my digibank account",
+    "intent": "login issues",
+    "intent_prediction": {
+      "name": "account_opening",
+      "confidence": 0.27503639459609985
+    }
+  },
+  {
+    "text": "Authentication failed. Check for correct pwd",
+    "intent": "login issues",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "app transfer to another bank is allowed or not?",
+    "intent": "transaction queries",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Please refund  100 rs to my digiapp",
+    "intent": "transaction queries",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u092a\u0948\u0938\u0947 \u0915\u0948\u0938\u0947 bhej sakte dusre account ko",
+    "intent": "transaction queries",
+    "intent_prediction": {
+      "name": "account_opening",
+      "confidence": 0.2858469784259796
+    }
+  },
+  {
+    "text": "money send to other accnt",
+    "intent": "transaction queries",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "cannot add fund",
+    "intent": "transaction queries",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "paise kaha se bhej sakte hain",
+    "intent": "transaction queries",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "pasa \u0915\u0948\u0938\u0947 \u091f\u094d\u0930\u093e\u0902\u0938\u092b\u0930 \u0915\u0930\u0947\u0902?",
+    "intent": "transaction queries",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u092a\u0948\u0938\u0947 \u0915\u0948\u0938\u0947 \u092d\u0947\u091c",
+    "intent": "transaction queries",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "how to pay to my other ACC?",
+    "intent": "transaction queries",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0915\u0948\u0938\u0947 \u092e\u0947\u0930\u0947 \u0905\u0928\u094d\u092f ACCount \u0915\u094b \u092d\u0941\u0917\u0924\u093e\u0928 \u0915\u0930\u0947\u0902",
+    "intent": "transaction queries",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "want to block my debit card",
+    "intent": "block card",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u092e\u0947\u0930\u093e \u0921\u0947\u092c\u093f\u091f \u0915\u093e\u0930\u094d\u0921 \u092c\u094d\u0932\u0949\u0915 \u0915\u0930\u0928\u093e \u091a\u093e\u0939\u0924\u0947 \u0939\u0948\u0902",
+    "intent": "block card",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "lost my phone",
+    "intent": "block card",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "card ghum gaya",
+    "intent": "block card",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "What is the procedure to block/stolen Debit Card",
+    "intent": "block card",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Kaise Debit card ko Block kaise karu",
+    "intent": "block card",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Block Debit Card urgently",
+    "intent": "block card",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "does DBS gives credit card?",
+    "intent": "credit card",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "how to apply for credt card?",
+    "intent": "credit card",
+    "intent_prediction": {
+      "name": "block card",
+      "confidence": 0.25934019684791565
+    }
+  },
+  {
+    "text": "craditcard plz",
+    "intent": "credit card",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u090f\u091f\u0940\u090f\u092e se kitne baar money withdraw kar sakte",
+    "intent": "reg_DG",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "how to withdraw money?",
+    "intent": "reg_DG",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "plz tell the charges for atm transactn",
+    "intent": "reg_DG",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Charges on ATM Usage",
+    "intent": "reg_DG",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "how do you activate the digipay debit card?",
+    "intent": "activate_debit",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0921\u0947\u092c\u093f\u091f \u0915\u093e\u0930\u094d\u0921 when deliver?",
+    "intent": "activate_debit",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "generate OTP TO CREATE PASSWORD OF DEBIT CARD",
+    "intent": "activate_debit",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "card activate kyse karte hai",
+    "intent": "activate_debit",
+    "intent_prediction": {
+      "name": "block card",
+      "confidence": 0.2106098085641861
+    }
+  },
+  {
+    "text": "what are the interest rates offered",
+    "intent": "rate query",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "how can  i know the interest rates in my account",
+    "intent": "rate query",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "when will i get my int?",
+    "intent": "rate query",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "how much interest  can i expect",
+    "intent": "rate query",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u092e\u0948\u0902 \u092c\u094d\u092f\u093e\u091c \u0926\u0930\u094b\u0902 \u0915\u094b \u0915\u0948\u0938\u0947 \u091c\u093e\u0928 \u0938\u0915\u0924\u093e \u0939\u0942\u0902 ?",
+    "intent": "rate query",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0915\u093f\u0924\u0928\u093e \u092c\u094d\u092f\u093e\u091c \u0935\u0938\u0942\u0932\u093e \u091c\u093e\u090f\u0917\u093e",
+    "intent": "rate query",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "i have forgotten the upi pin for my digi accnt",
+    "intent": "upi_query",
+    "intent_prediction": {
+      "name": "activate_debit",
+      "confidence": 0.21839293837547302
+    }
+  },
+  {
+    "text": "can i set a new pin thru app?",
+    "intent": "upi_query",
+    "intent_prediction": {
+      "name": "login issues",
+      "confidence": 0.21714742481708527
+    }
+  },
+  {
+    "text": "how to setup UPI PIN?",
+    "intent": "upi_query",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "CAN  set UPi",
+    "intent": "upi_query",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "what are the interest rate offered by digibnk on FD ?",
+    "intent": "FD",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "how to open a FIXED DEPOSIT",
+    "intent": "FD",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "AM i eligible 4 [fd]?",
+    "intent": "FD",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "tell me about FD",
+    "intent": "FD",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "fd account kholna",
+    "intent": "FD",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "what are the interest rate offered by digibnk on RD ?",
+    "intent": "RD",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "how to open a RD a/c",
+    "intent": "RD",
+    "intent_prediction": {
+      "name": "login issues",
+      "confidence": 0.2579285800457001
+    }
+  },
+  {
+    "text": "what is process of opening recurring deposit account ?",
+    "intent": "RD",
+    "intent_prediction": {
+      "name": "account_opening",
+      "confidence": 0.21800597012043
+    }
+  },
+  {
+    "text": "kya aap mera interest rate kam kar sakte ho",
+    "intent": "RD",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "How can I apply for a personal loan and can I make an offline application?",
+    "intent": "PL apply",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0924\u0941\u0930\u0902\u0924 \u0932\u094b\u0928 \u0915\u0948\u0938\u0947 \u092e\u093f\u0932\u0947\u0917\u093e?",
+    "intent": "PL apply",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u092a\u0930\u094d\u0938\u0928\u0932 \u0932\u094b\u0928 ke liyye kya karna padega?",
+    "intent": "PL apply",
+    "intent_prediction": {
+      "name": "home_loan_application",
+      "confidence": 0.2007727175951004
+    }
+  },
+  {
+    "text": "can i get PL",
+    "intent": "PL apply",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "mujhe Personal Loan chahye",
+    "intent": "PL apply",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "kitna int rate hai ppersonal loan ka?",
+    "intent": "PL apply",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "how to add funds to my account",
+    "intent": "add_fund",
+    "intent_prediction": {
+      "name": "account_opening",
+      "confidence": 0.30528345704078674
+    }
+  },
+  {
+    "text": "how to top-up my dgaccount?",
+    "intent": "add_fund",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "khaate mein phand kaise daale?",
+    "intent": "add_fund",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u092b\u0902\u0921 \u0915\u0948\u0938\u0947 \u091c\u094b\u0921\u093c\u0947\u0902 ?",
+    "intent": "add_fund",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "money kis tarah se add karein",
+    "intent": "add_fund",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0915\u093f\u0938 \u0924\u0930\u0939 \u0938\u0947 \u091c\u092e\u093e \u0915\u0930\u0947\u0902",
+    "intent": "add_fund",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u092a\u0948\u0938\u0947  \u0915\u093f\u0938 \u0924\u0930\u0939 \u0938\u0947 \u0910\u0921 \u0915\u0930\u0947\u0902",
+    "intent": "add_fund",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "fund add to my accnt",
+    "intent": "add_fund",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "top up my balance by \u092a\u093e\u0901\u091a \u0932\u093e\u0916",
+    "intent": "add_fund",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "account mein paise daalnec",
+    "intent": "add_fund",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "sir i cant complete account transfer,plz help",
+    "intent": "transfer_fail",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0916\u093e\u0924\u093e \u0939\u0938\u094d\u0924\u093e\u0902\u0924\u0930\u0923 \u0915\u0930\u0928\u0947 \u092e\u0947\u0902 \u0905\u0938\u092e\u0930\u094d\u0925 \u0939\u0942\u0902",
+    "intent": "transfer_fail",
+    "intent_prediction": {
+      "name": "account_opening",
+      "confidence": 0.23046821355819702
+    }
+  },
+  {
+    "text": "\u092e\u0947\u0902 \u0905\u0915\u093e\u0909\u0902\u091f \u091f\u094d\u0930\u093e\u0902\u0938\u092b\u0930 \u0928 \u0915\u0930 \u092a\u093e \u0930\u0939\u093e",
+    "intent": "transfer_fail",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "unable to do transaction",
+    "intent": "transfer_fail",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "transacton not allowed",
+    "intent": "transfer_fail",
+    "intent_prediction": {
+      "name": "login issues",
+      "confidence": 0.20385737717151642
+    }
+  },
+  {
+    "text": "i did fund transfer, but it failed",
+    "intent": "transfer_fail",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "mere paise cut gaye,par transaction pura ni hua",
+    "intent": "transfer_fail",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u092e\u0947\u0930\u0947 \u092a\u0948\u0938\u0947 \u0915\u091f \u0917\u090f,\u092a\u0930 \u091f\u094d\u0930\u093e\u0902\u0938\u0915\u094d\u0936\u0928 \u092a\u0942\u0930\u093e \u0928 \u0939\u0941\u0906",
+    "intent": "transfer_fail",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "money deducted but not completed transacton",
+    "intent": "transfer_fail",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "cannot transfer amount",
+    "intent": "transfer_fail",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "how to report a transaction issue or dispute",
+    "intent": "fraud_dispute",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "i hv been victim of fraud",
+    "intent": "fraud_dispute",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "there was an attempt of fraud attempt and security issue",
+    "intent": "fraud_dispute",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "phishing scam",
+    "intent": "fraud_dispute",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "how to report fraud and suspicious activity",
+    "intent": "fraud_dispute",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0932\u0947\u0928-\u0926\u0947\u0928 \u0915\u0940 \u0938\u092e\u0938\u094d\u092f\u093e \u092f\u093e \u0935\u093f\u0935\u093e\u0926 \u0915\u0940 \u0930\u093f\u092a\u094b\u0930\u094d\u091f \u0915\u0948\u0938\u0947 \u0915\u0930\u0947\u0902 ?",
+    "intent": "fraud_dispute",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "my credit card  credentials stolen",
+    "intent": "fraud_dispute",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u092e\u0947\u0930\u093e \u0915\u094d\u0930\u0947\u0921\u093f\u091f \u0915\u093e\u0930\u094d\u0921 \u0915\u094d\u0930\u0947\u0921\u0947\u0902\u0936\u093f\u092f\u0932\u094d\u0938 \u091a\u094b\u0930\u0940 \u0939\u094b \u0917\u092f\u093e",
+    "intent": "fraud_dispute",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "mera bank se kisine 5000 inr nikal diye, complaint karna hai",
+    "intent": "fraud_dispute",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Wrong Transaction on Debit Card",
+    "intent": "fraud_dispute",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "sr plz close my account",
+    "intent": "close_account",
+    "intent_prediction": {
+      "name": "account_opening",
+      "confidence": 0.23567713797092438
+    }
+  },
+  {
+    "text": "mujhe acount band karanaa hai",
+    "intent": "close_account",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "close my dgbank[account_type] account",
+    "intent": "close_account",
+    "intent_prediction": {
+      "name": "account_opening",
+      "confidence": 0.32731011509895325
+    }
+  },
+  {
+    "text": "bataye mere account kaise band hoga",
+    "intent": "close_account",
+    "intent_prediction": {
+      "name": "account_opening",
+      "confidence": 0.3109782934188843
+    }
+  },
+  {
+    "text": "\u092e\u0947\u0930\u093e \u0916\u093e\u0924\u093e \u092c\u0902\u0926 \u0915\u0930\u0947\u0902",
+    "intent": "close_account",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "accnt band hona",
+    "intent": "close_account",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "account close kaise hoga",
+    "intent": "close_account",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "mujhe mera savings account Number 55479944210 close karna hai",
+    "intent": "close_account",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "hello  muje naya debit card chahiye",
+    "intent": "new_debit_card",
+    "intent_prediction": {
+      "name": "block card",
+      "confidence": 0.25774484872817993
+    }
+  },
+  {
+    "text": "hw to get a new debt card?",
+    "intent": "new_debit_card",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0928\u092f\u093e \u0921\u0947\u092c\u093f\u091f \u0915\u093e\u0930\u094d\u0921 \u091a\u093e\u0939\u093f\u090f",
+    "intent": "new_debit_card",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "can  i get ATM Card?",
+    "intent": "new_debit_card",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "what are the investment options ?",
+    "intent": "investment_options",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "what kind of investment type i can start",
+    "intent": "investment_options",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "do u have mutual fund?",
+    "intent": "investment_options",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "can i start mutual fund",
+    "intent": "investment_options",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0915\u094d\u092f\u093e \u092e\u0948\u0902 \u092e\u094d\u092f\u0942\u091a\u0941\u0905\u0932 \u092b\u0902\u0921 \u0936\u0941\u0930\u0942 \u0915\u0930 \u0938\u0915\u0924\u093e \u0939\u0942\u0902 ?",
+    "intent": "investment_options",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "me 40000 rs daal sakta hu MF(product) me?",
+    "intent": "investment_options",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "what are the different types of loans?",
+    "intent": "loan_offered",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "how many types of loans are there?",
+    "intent": "loan_offered",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "tell me about the loans offered by you",
+    "intent": "loan_offered",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "what are the kinds of loan",
+    "intent": "loan_offered",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u090b\u0923 \u0915\u0947 \u092a\u094d\u0930\u0915\u093e\u0930 \u0915\u094d\u092f\u093e \u0939\u0948\u0902 ?",
+    "intent": "loan_offered",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0932\u094b\u0928  \u0915\u0948\u0938\u0947 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930\u0947\u0902 ?",
+    "intent": "loan_offered",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0915\u094c\u0928\u0938\u0947 \u0932\u094b\u0928 dete ho?",
+    "intent": "loan_offered",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "batao loan ka kya option",
+    "intent": "loan_offered",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "kounse loan dete ho",
+    "intent": "loan_offered",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "loan applcaton batao",
+    "intent": "loan_offered",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "bataye loan kya hai",
+    "intent": "loan_offered",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0932\u094b\u0928 ka kya process hai ?",
+    "intent": "loan_offered",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u092e\u0948\u0902  \u090b\u0923 \u0915\u0947 \u0932\u093f\u090f \u0906\u0935\u0947\u0926\u0928 \u0915\u0948\u0938\u0947 \u0915\u0930 \u0938\u0915\u0924\u093e \u0939\u0942\u0902 ?",
+    "intent": "loan_offered",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0932\u094b\u0928 \u0915\u0947 \u0932\u093f\u090f \u0906\u0935\u0947\u0926\u0928 \u0915\u0948\u0938\u0947 \u0915\u0930 \u0938\u0915\u0924\u093e \u0939\u0942\u0902",
+    "intent": "loan_offered",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "need Loan",
+    "intent": "loan_offered",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "loan chahye",
+    "intent": "loan_offered",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0939\u094b\u092e \u0932\u094b\u0928 \u0915\u0947 \u0932\u093f\u090f \u0906\u0935\u0947\u0926\u0928 \u0915\u0930 \u0938\u0915\u0924\u0947 \u0939\u0948\u0902",
+    "intent": "home_loan_about",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "ghar ka loan ke liye apply karna hai",
+    "intent": "home_loan_about",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "a loan  to assist in buying a house",
+    "intent": "home_loan_about",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "ghar lene k liye aap home loan dete",
+    "intent": "home_loan_about",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "mujhe 6 hazar crore Rs ka ghar ka loan lena hai",
+    "intent": "home_loan_about",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "home lone ke documents batao",
+    "intent": "home_loan_about",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "what s my savngs acnt bal?",
+    "intent": "check_sa_balance",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "how to check my bal?",
+    "intent": "check_sa_balance",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u092e\u0947\u0930\u0947 \u0916\u093e\u0924\u0947 \u0915\u0940  \u0930\u093e\u0936\u093f \u0915\u0940 \u091c\u093e\u0902\u091a \u0915\u0948\u0938\u0947 \u0915\u0930\u0947\u0902",
+    "intent": "check_sa_balance",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "mere account me kitne paise hai",
+    "intent": "check_sa_balance",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "muje mera balance pata lagana ha",
+    "intent": "check_sa_balance",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "how can i know my balance?",
+    "intent": "check_sa_balance",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Balance Enquiry",
+    "intent": "check_sa_balance",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "what all languages can u reply?",
+    "intent": "lang_supported",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "do you understand regional lang?",
+    "intent": "lang_supported",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "hindi aata kya samj",
+    "intent": "lang_supported",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "telegu me baat kijiye",
+    "intent": "lang_supported",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "muje angrezi ni aata",
+    "intent": "lang_supported",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "english dont know",
+    "intent": "lang_supported",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "hindi mein bolo",
+    "intent": "lang_supported",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0906\u092a \u0915\u093f\u0928 \u092d\u093e\u0937\u093e\u0913\u0902 \u092e\u0947\u0902 \u0909\u0924\u094d\u0924\u0930 \u0926\u0947 \u0938\u0915\u0924\u0947 \u0939\u0948\u0902 ?",
+    "intent": "lang_supported",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "can u speak in bengali",
+    "intent": "lang_supported",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "auto loan kaa laabh uthaane ke liye koun se dastavej aavashyak hai?",
+    "intent": "car_loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "purv swaamitv vaale car loan ke liye loan kii prakriya main kitna samay lagegaa?",
+    "intent": "car_loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Do I need to pledge anything or give collateral to get a car loan?",
+    "intent": "car_loan_collateral",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0915\u094d\u092f\u093e \u092e\u0941\u091d\u0947 \u0928\u0908 \u0915\u093e\u0930 \u090b\u0923 \u0915\u0947 \u0932\u093f\u090f \u090f\u0915 \u0917\u093e\u0930\u0902\u091f\u0930 \u0915\u0940 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e \u0939\u0948?",
+    "intent": "car_loan_collateral",
+    "intent_prediction": {
+      "name": "car_loan_application",
+      "confidence": 0.2326321303844452
+    }
+  },
+  {
+    "text": "\u0915\u094d\u092f\u093e \u092e\u0941\u091d\u0947   \u0915\u093e\u0930 \u0932\u094b\u0928 \u0932\u0947\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u0915\u0941\u091b \u092d\u0940 \u0917\u093f\u0930\u0935\u0940 \u0930\u0916\u0928\u0947 \u092f\u093e \u091c\u092e\u093e\u0928\u0924 \u0926\u0947\u0928\u0947 \u0915\u0940 \u091c\u0930\u0942\u0930\u0924 \u0939\u0948?",
+    "intent": "car_loan_collateral",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Do I need a guarantor for New Car Loans?",
+    "intent": "car_loan_collateral",
+    "intent_prediction": {
+      "name": "car_loan_application",
+      "confidence": 0.24935999512672424
+    }
+  },
+  {
+    "text": "kya mujhe nai car loan ke liye ek guaranter kii aavashyaktaa he?",
+    "intent": "car_loan_collateral",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "kya mujhe car loan lene ke liye kuch bhi girvee rakhane yaa jamaanat dene kii jarurat he?",
+    "intent": "car_loan_collateral",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u092c\u0948\u0902\u0915 \u0928\u0908 \u0915\u093e\u0930 \u090b\u0923 \u0915\u0947 \u0938\u093e\u0925 \u092e\u0948\u0902 \u0905\u0927\u093f\u0915\u0924\u092e \u0915\u093f\u0924\u0928\u0940 \u0930\u093e\u0936\u093f \u0909\u0927\u093e\u0930 \u0932\u0947 \u0938\u0915\u0924\u093e \u0939\u0942\u0902?",
+    "intent": "car_loan_eligibility",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "bank nai car loan ke saath main adhiktam kitni raashi udhaar le saktaa hum?",
+    "intent": "car_loan_eligibility",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u092c\u0948\u0902\u0915 \u0928\u0908 \u0915\u093e\u0930 \u090b\u0923 \u0915\u093e \u0932\u093e\u092d \u0915\u094c\u0928 \u0909\u0920\u093e \u0938\u0915\u0924\u093e \u0939\u0948?",
+    "intent": "car_loan_eligibility",
+    "intent_prediction": {
+      "name": "car_loan_application",
+      "confidence": 0.26405587792396545
+    }
+  },
+  {
+    "text": "bank nai car loan kaa laabh koun uthaa saktaa he?",
+    "intent": "car_loan_eligibility",
+    "intent_prediction": {
+      "name": "car_loan_application",
+      "confidence": 0.22726087272167206
+    }
+  },
+  {
+    "text": "Who can avail of Bank New Car Loans?",
+    "intent": "car_loan_eligibility",
+    "intent_prediction": {
+      "name": "car_loan_application",
+      "confidence": 0.261294960975647
+    }
+  },
+  {
+    "text": "What is the maximum amount I can borrow with an Bank New Car Loans?",
+    "intent": "car_loan_eligibility",
+    "intent_prediction": {
+      "name": "car_loan_application",
+      "confidence": 0.20524394512176514
+    }
+  },
+  {
+    "text": "Which cars can be financed for New Car Loans?",
+    "intent": "car_loan_finance",
+    "intent_prediction": {
+      "name": "car_loan_application",
+      "confidence": 0.21900805830955505
+    }
+  },
+  {
+    "text": "How much finance can I avail of on New Car Loans?",
+    "intent": "car_loan_finance",
+    "intent_prediction": {
+      "name": "car_loan_application",
+      "confidence": 0.22231966257095337
+    }
+  },
+  {
+    "text": "\u092e\u0948\u0902 \u0928\u0908 \u0915\u093e\u0930 \u090b\u0923 \u092a\u0930 \u0915\u093f\u0924\u0928\u093e \u0935\u093f\u0924\u094d\u0924 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930 \u0938\u0915\u0924\u093e \u0939\u0942\u0902?",
+    "intent": "car_loan_finance",
+    "intent_prediction": {
+      "name": "car_loan_application",
+      "confidence": 0.2246217429637909
+    }
+  },
+  {
+    "text": "\u0928\u0908 \u0915\u093e\u0930 \u090b\u0923 \u0915\u0947 \u0932\u093f\u090f \u0915\u093f\u0928 \u0915\u093e\u0930\u094b\u0902 \u0915\u094b \u0935\u093f\u0924\u094d\u0924\u092a\u094b\u0937\u093f\u0924 \u0915\u093f\u092f\u093e \u091c\u093e \u0938\u0915\u0924\u093e \u0939\u0948?",
+    "intent": "car_loan_finance",
+    "intent_prediction": {
+      "name": "car_loan_application",
+      "confidence": 0.24905166029930115
+    }
+  },
+  {
+    "text": "nai car loan ke liye kin kaaron ko vittposhit kiya ja saktaa he?",
+    "intent": "car_loan_finance",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "main nai car loan par kitna vitt praapt kar saktaa hum?",
+    "intent": "car_loan_finance",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0911\u091f\u094b \u090b\u0923 \u092a\u0930 \u092c\u094d\u092f\u093e\u091c \u0926\u0930 \u0915\u094d\u092f\u093e \u0939\u0948 \u0914\u0930 \u0915\u094d\u092f\u093e \u092f\u0939 \u0924\u092f \u092f\u093e \u0905\u0938\u094d\u0925\u093e\u092f\u0940 \u0939\u0948?",
+    "intent": "car_loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "What is the rate of interest on Auto Loans and is it fixed or floating?",
+    "intent": "car_loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "What is the minimum interest rate I can avail car loan",
+    "intent": "car_loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "auto loan par byaaj dar kya he or kya yah tay yaa asthaayee he?",
+    "intent": "car_loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0928\u094d\u092f\u0942\u0928\u0924\u092e \u092c\u094d\u092f\u093e\u091c \u0926\u0930 \u0915\u094d\u092f\u093e \u0939\u0948 \u092e\u0948\u0902 \u0915\u093e\u0930 \u090b\u0923 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930 \u0938\u0915\u0924\u093e \u0939\u0942\u0902",
+    "intent": "car_loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "nunatam byaaj dar kya he main car loan praapt kar saktaa hum",
+    "intent": "car_loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "how much time  it take for my  loan to be processed?",
+    "intent": "process_time",
+    "intent_prediction": {
+      "name": "loan_repayment",
+      "confidence": 0.20589452981948853
+    }
+  },
+  {
+    "text": "loan processing takes how much time?",
+    "intent": "process_time",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "when can i expect my loan approved?",
+    "intent": "process_time",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "sell my car before I repay my loan?",
+    "intent": "car_loan_repayment",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0905\u0917\u0930 \u092e\u0948\u0902 \u0905\u092a\u0928\u0940 \u0915\u093e\u0930 \u090b\u0923 \u0930\u093e\u0936\u093f \u0928\u0939\u0940\u0902 \u091a\u0941\u0915\u093e \u092a\u093e\u090a\u0902\u0917\u093e \u0924\u094b \u0915\u094d\u092f\u093e \u0939\u094b\u0917\u093e",
+    "intent": "car_loan_repayment",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "What if I won\u2019t repay my car loan amount",
+    "intent": "car_loan_repayment",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "agar main apni car loan raashi nahin chukaa paaungaa to kya hoga",
+    "intent": "car_loan_repayment",
+    "intent_prediction": {
+      "name": "car_loan_application",
+      "confidence": 0.20159326493740082
+    }
+  },
+  {
+    "text": "\u0905\u092a\u0928\u093e \u090b\u0923 \u091a\u0941\u0915\u093e\u0928\u0947 \u0938\u0947 \u092a\u0939\u0932\u0947 \u0905\u092a\u0928\u0940 \u0915\u093e\u0930 \u092c\u0947\u091a \u0926\u0942\u0902?",
+    "intent": "car_loan_repayment",
+    "intent_prediction": {
+      "name": "car_loan_application",
+      "confidence": 0.20747917890548706
+    }
+  },
+  {
+    "text": "apana loan chukaane se pehle apni car bech duun?",
+    "intent": "car_loan_repayment",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0936\u093f\u0915\u094d\u0937\u093e \u0932\u094b\u0928 \u0915\u0947 \u0932\u093f\u090f \u0915\u094c\u0928 \u0906\u0935\u0947\u0926\u0928 \u0915\u0930 \u0938\u0915\u0924\u093e \u0939\u0948?",
+    "intent": "education_loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Who should opt/apply for an education loan and why?",
+    "intent": "education_loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "sabhi ke liye loan kya he - adhyayan or rahanaa yaa sirf adhyayan?",
+    "intent": "education_loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Who can apply for Education Loan?",
+    "intent": "education_loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "shiksha loan ke liye koun aavedan kar saktaa he?",
+    "intent": "education_loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Do I need a co-applicant for the education loan?",
+    "intent": "education_loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "What all is the loan for \u2013 study and stay or just study?",
+    "intent": "education_loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0938\u092d\u0940 \u0915\u0947 \u0932\u093f\u090f \u0932\u094b\u0928 \u0915\u094d\u092f\u093e \u0939\u0948 - \u0905\u0927\u094d\u092f\u092f\u0928 \u0914\u0930 \u0930\u0939\u0928\u093e \u092f\u093e \u0938\u093f\u0930\u094d\u092b \u0905\u0927\u094d\u092f\u092f\u0928?",
+    "intent": "education_loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "kya mujhe shiksha loan ke liye sah-aavedak kii aavashyaktaa he?",
+    "intent": "education_loan_application",
+    "intent_prediction": {
+      "name": "loan_repayment",
+      "confidence": 0.22418418526649475
+    }
+  },
+  {
+    "text": "\u0915\u094d\u092f\u093e \u092e\u0941\u091d\u0947 \u0936\u093f\u0915\u094d\u0937\u093e \u0932\u094b\u0928 \u0915\u0947 \u0932\u093f\u090f \u0938\u0939-\u0906\u0935\u0947\u0926\u0915 \u0915\u0940 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e \u0939\u0948?",
+    "intent": "education_loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0936\u093f\u0915\u094d\u0937\u093e \u0932\u094b\u0928 \u0915\u0947 \u0932\u093f\u090f \u0915\u093f\u0938\u0947 \u091a\u0941\u0928\u0928\u093e / \u0906\u0935\u0947\u0926\u0928 \u0915\u0930\u0928\u093e \u091a\u093e\u0939\u093f\u090f \u0914\u0930 \u0915\u094d\u092f\u094b\u0902?",
+    "intent": "education_loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "shiksha loan ke liye kise chunanaa / aavedan karnaa chahie or kyon?",
+    "intent": "education_loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "main kin paathyakramon ke liye shiksha loan le saktaa hum?",
+    "intent": "education_loan_eligibility",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "main kin paathyakramon main shiksha loan le saktaa hum?",
+    "intent": "education_loan_eligibility",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "kya loan santhaan / college / vishvavidhyalay ke paksh main vitarit kiya jayega",
+    "intent": "education_loan_eligibility",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0915\u094d\u092f\u093e \u0932\u094b\u0928 \u0938\u0902\u0938\u094d\u0925\u093e\u0928 / \u0915\u0949\u0932\u0947\u091c / \u0935\u093f\u0936\u094d\u0935\u0935\u093f\u0926\u094d\u092f\u093e\u0932\u092f \u0915\u0947 \u092a\u0915\u094d\u0937 \u092e\u0947\u0902 \u0935\u093f\u0924\u0930\u093f\u0924 \u0915\u093f\u092f\u093e \u091c\u093e\u090f\u0917\u093e",
+    "intent": "education_loan_eligibility",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u092e\u0948\u0902 \u0915\u093f\u0928 \u092a\u093e\u0920\u094d\u092f\u0915\u094d\u0930\u092e\u094b\u0902 \u092e\u0947\u0902 \u0936\u093f\u0915\u094d\u0937\u093e \u0932\u094b\u0928 \u0932\u0947 \u0938\u0915\u0924\u093e \u0939\u0942\u0902?",
+    "intent": "education_loan_eligibility",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u092e\u0948\u0902 \u0915\u093f\u0928 \u092a\u093e\u0920\u094d\u092f\u0915\u094d\u0930\u092e\u094b\u0902 \u0915\u0947 \u0932\u093f\u090f \u0936\u093f\u0915\u094d\u0937\u093e \u0932\u094b\u0928 \u0932\u0947 \u0938\u0915\u0924\u093e \u0939\u0942\u0902?",
+    "intent": "education_loan_eligibility",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Will the loan be disbursed in favour of the Institute/college/university",
+    "intent": "education_loan_eligibility",
+    "intent_prediction": {
+      "name": "loan_repayment",
+      "confidence": 0.23225903511047363
+    }
+  },
+  {
+    "text": "Which courses can I take an Education Loan for?",
+    "intent": "education_loan_eligibility",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Which courses can I take an education loan?",
+    "intent": "education_loan_eligibility",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "kam byaaj dar par shiksha loan kaise praapt karen",
+    "intent": "education_loan_interest",
+    "intent_prediction": {
+      "name": "loan_repayment",
+      "confidence": 0.22713391482830048
+    }
+  },
+  {
+    "text": "ajukeshan loan lene ke liye kam se kam byaaj dar kitni he",
+    "intent": "education_loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "shiksha loan ke liye byaaj daren kya hai",
+    "intent": "education_loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0936\u093f\u0915\u094d\u0937\u093e \u0932\u094b\u0928 \u0915\u0947 \u0932\u093f\u090f \u092c\u094d\u092f\u093e\u091c \u0926\u0930\u0947\u0902 \u0915\u094d\u092f\u093e \u0939\u0948\u0902",
+    "intent": "education_loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u090f\u091c\u0941\u0915\u0947\u0936\u0928 \u0932\u094b\u0928 \u0932\u0947\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u0915\u092e \u0938\u0947 \u0915\u092e \u092c\u094d\u092f\u093e\u091c \u0926\u0930 \u0915\u093f\u0924\u0928\u0940 \u0939\u0948",
+    "intent": "education_loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0915\u092e \u092c\u094d\u092f\u093e\u091c \u0926\u0930 \u092a\u0930 \u0936\u093f\u0915\u094d\u0937\u093e \u0932\u094b\u0928 \u0915\u0948\u0938\u0947 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930\u0947\u0902",
+    "intent": "education_loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "What are the interest rates for education loan",
+    "intent": "education_loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "How much is the least interest rate for taking education loan",
+    "intent": "education_loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "How to get education loan at less interest rates",
+    "intent": "education_loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0905\u0927\u094d\u092f\u092f\u0928 \u0932\u094b\u0928 \u091a\u0941\u0915\u093e\u0928\u0947 \u092e\u0947\u0902 \u092e\u0941\u091d\u0947 \u0915\u093f\u0924\u0928\u093e \u0938\u092e\u092f \u0932\u0917 \u0938\u0915\u0924\u093e \u0939\u0948",
+    "intent": "education_loan_repayment",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "ajukeshan loan chukaane main mujhe kitna samay lag saktaa he",
+    "intent": "education_loan_repayment",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u090f\u091c\u0941\u0915\u0947\u0936\u0928 \u0932\u094b\u0928 \u091a\u0941\u0915\u093e\u0928\u0947 \u092e\u0947\u0902 \u092e\u0941\u091d\u0947 \u0915\u093f\u0924\u0928\u093e \u0938\u092e\u092f \u0932\u0917 \u0938\u0915\u0924\u093e \u0939\u0948",
+    "intent": "education_loan_repayment",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "How much Time I can take to repay the education loan",
+    "intent": "education_loan_repayment",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "How much Time I can take to repay the study loan",
+    "intent": "education_loan_repayment",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "adhyayan loan chukaane main mujhe kitna samay lag saktaa he",
+    "intent": "education_loan_repayment",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "What kind of collateral security is required for  education loan?",
+    "intent": "education_loan_security",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Do I need to provide collateral to avail of an education loan",
+    "intent": "education_loan_security",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "kya mujhe shiksha loan lene ke liye samparshvik pradaan karne kii aavashyaktaa he",
+    "intent": "education_loan_security",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "shiksha loan ke liye kis tarah kii samparshvik suraksha aavashyak he?",
+    "intent": "education_loan_security",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0915\u094d\u092f\u093e \u092e\u0941\u091d\u0947 \u0936\u093f\u0915\u094d\u0937\u093e \u0932\u094b\u0928 \u0932\u0947\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u0938\u0902\u092a\u093e\u0930\u094d\u0936\u094d\u0935\u093f\u0915 \u092a\u094d\u0930\u0926\u093e\u0928 \u0915\u0930\u0928\u0947 \u0915\u0940 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e \u0939\u0948",
+    "intent": "education_loan_security",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0936\u093f\u0915\u094d\u0937\u093e \u0932\u094b\u0928 \u0915\u0947 \u0932\u093f\u090f \u0915\u093f\u0938 \u0924\u0930\u0939 \u0915\u0940 \u0938\u0902\u092a\u093e\u0930\u094d\u0936\u094d\u0935\u093f\u0915 \u0938\u0941\u0930\u0915\u094d\u0937\u093e \u0906\u0935\u0936\u094d\u092f\u0915 \u0939\u0948?",
+    "intent": "education_loan_security",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0936\u093f\u0915\u094d\u0937\u093e \u0932\u094b\u0928 \u0915\u0947 \u0932\u093f\u090f \u092e\u0948\u0902 \u0905\u0927\u093f\u0915\u0924\u092e \u0915\u093f\u0924\u0928\u0940 / \u0928\u094d\u092f\u0942\u0928\u0924\u092e \u0930\u093e\u0936\u093f \u0932\u0947 \u0938\u0915\u0924\u093e \u0939\u0942\u0902",
+    "intent": "education_loan_tenure",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "How much is the maximum/minimum amount I can take for education loan",
+    "intent": "education_loan_tenure",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "How long is the tenure of the Education loan",
+    "intent": "education_loan_tenure",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "shiksha loan ke liye main adhiktam kitni / nunatam raashi le saktaa hum",
+    "intent": "education_loan_tenure",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "ajukeshan loan kii avadhi kitni he",
+    "intent": "education_loan_tenure",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u090f\u091c\u0941\u0915\u0947\u0936\u0928 \u0932\u094b\u0928 \u0915\u0940 \u0905\u0935\u0927\u093f \u0915\u093f\u0924\u0928\u0940 \u0939\u0948",
+    "intent": "education_loan_tenure",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Can my spouse be a co applicant in a home loan?",
+    "intent": "home_loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "kya main ek nai sampatti kharidne ke liye apane maujuuda loan khate ke madhyam se ucch loan praapt kar saktaa hum?",
+    "intent": "home_loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "grih sudhaar loan kaise lagu karen?",
+    "intent": "home_loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0939\u094b\u092e \u0932\u094b\u0928 \u0915\u0947 \u0932\u093f\u090f \u0915\u094c\u0928 \u0938\u0947 \u0926\u0938\u094d\u0924\u093e\u0935\u0947\u091c \u0906\u0935\u0936\u094d\u092f\u0915 \u0939\u0948\u0902?",
+    "intent": "home_loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "What are the documents required for a  home loan ?",
+    "intent": "home_loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u092e\u0948\u0902 \u0939\u094b\u092e \u0932\u094b\u0928 \u0915\u093e \u0906\u0935\u0947\u0926\u0928 \u0915\u092c \u0915\u0930 \u0938\u0915\u0924\u093e \u0939\u0942\u0902?",
+    "intent": "home_loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Can i get a higher loan through my existing loan account to buy a new property?",
+    "intent": "home_loan_application",
+    "intent_prediction": {
+      "name": "education_loan_eligibility",
+      "confidence": 0.20951011776924133
+    }
+  },
+  {
+    "text": "\u0915\u094d\u092f\u093e \u092e\u0948\u0902 \u0935\u094d\u092f\u093e\u0935\u0938\u093e\u092f\u093f\u0915 \u0938\u0902\u092a\u0924\u094d\u0924\u093f \u0915\u0947 \u0932\u093f\u090f \u0938\u0902\u092a\u0924\u094d\u0924\u093f (\u090f\u0932\u090f\u092a\u0940) \u0915\u0947 \u0916\u093f\u0932\u093e\u092b \u0932\u094b\u0928 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930 \u0938\u0915\u0924\u093e \u0939\u0942\u0902?",
+    "intent": "home_loan_eligibility",
+    "intent_prediction": {
+      "name": "education_loan_eligibility",
+      "confidence": 0.23234760761260986
+    }
+  },
+  {
+    "text": "\u0938\u0902\u092a\u0924\u094d\u0924\u093f \u0915\u0947 \u0935\u093f\u0930\u0941\u0926\u094d\u0927 \u0932\u094b\u0928 (LAP) \u0915\u093e \u0932\u093e\u092d \u0915\u094c\u0928 \u0909\u0920\u093e \u0938\u0915\u0924\u093e \u0939\u0948?",
+    "intent": "home_loan_eligibility",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "kya main vyavsaayik sampatti ke liye sampatti (elepi) ke khilaaf loan praapt kar saktaa hum?",
+    "intent": "home_loan_eligibility",
+    "intent_prediction": {
+      "name": "education_loan_eligibility",
+      "confidence": 0.2665676176548004
+    }
+  },
+  {
+    "text": "Can I avail Loan Against Property (LAP) for a commercial property?",
+    "intent": "home_loan_eligibility",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Who can avail a Loan Against Property (LAP) ?",
+    "intent": "home_loan_eligibility",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "sampatti ke viruddh loan (LAP) kaa laabh koun uthaa saktaa he?",
+    "intent": "home_loan_eligibility",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Are the interest rates of a Home Improvement Loan higher than that of a Home Loan ?",
+    "intent": "home_loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "kya grih sudhaar loan kii byaaj daren home loan kii tulana main adhik hai?",
+    "intent": "home_loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Are the interest rates of a Home Extension Loan higher than that of a Home Loan ?",
+    "intent": "home_loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "kam byaaj daron par kisi ko bhi home loan kaise mil saktaa he",
+    "intent": "home_loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0939\u094b\u092e \u090f\u0915\u094d\u0938\u091f\u0947\u0902\u0936\u0928 \u0932\u094b\u0928 \u0915\u0940 \u092c\u094d\u092f\u093e\u091c \u0926\u0930\u0947\u0902 \u0939\u094b\u092e \u0932\u094b\u0928 \u0915\u0940 \u0924\u0941\u0932\u0928\u093e \u092e\u0947\u0902 \u0905\u0927\u093f\u0915 \u0939\u0948\u0902?",
+    "intent": "home_loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0915\u094d\u092f\u093e \u0917\u0943\u0939 \u0938\u0941\u0927\u093e\u0930 \u0932\u094b\u0928 \u0915\u0940 \u092c\u094d\u092f\u093e\u091c \u0926\u0930\u0947\u0902 \u0939\u094b\u092e \u0932\u094b\u0928 \u0915\u0940 \u0924\u0941\u0932\u0928\u093e \u092e\u0947\u0902 \u0905\u0927\u093f\u0915 \u0939\u0948\u0902?",
+    "intent": "home_loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "How can anyone get home loan for less interest rates",
+    "intent": "home_loan_interest",
+    "intent_prediction": {
+      "name": "home_loan_about",
+      "confidence": 0.29828763008117676
+    }
+  },
+  {
+    "text": "What are the interest rates for home loan",
+    "intent": "home_loan_interest",
+    "intent_prediction": {
+      "name": "home_loan_about",
+      "confidence": 0.39050549268722534
+    }
+  },
+  {
+    "text": "home ekstansion loan kii byaaj daren home loan kii tulana main adhik hai?",
+    "intent": "home_loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "home loan ke liye byaaj daren kya hai",
+    "intent": "home_loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "How do I repay a home loan ?",
+    "intent": "home_loan_repayment",
+    "intent_prediction": {
+      "name": "home_loan_about",
+      "confidence": 0.22475343942642212
+    }
+  },
+  {
+    "text": "What happens to my property if I fail to repay home loan",
+    "intent": "home_loan_repayment",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0905\u0917\u0930 \u092e\u0948\u0902 \u0939\u094b\u092e \u0932\u094b\u0928 \u091a\u0941\u0915\u093e\u0928\u0947 \u092e\u0947\u0902 \u0935\u093f\u092b\u0932 \u0930\u0939\u0924\u093e \u0939\u0942\u0902 \u0924\u094b \u092e\u0947\u0930\u0940 \u0938\u0902\u092a\u0924\u094d\u0924\u093f \u0915\u093e \u0915\u094d\u092f\u093e \u0939\u094b\u0917\u093e?",
+    "intent": "home_loan_repayment",
+    "intent_prediction": {
+      "name": "education_loan_eligibility",
+      "confidence": 0.2658989429473877
+    }
+  },
+  {
+    "text": "agar main home loan chukaane main vifal rahata hum to meri sampatti kaa kya hoga?",
+    "intent": "home_loan_repayment",
+    "intent_prediction": {
+      "name": "education_loan_eligibility",
+      "confidence": 0.22342880070209503
+    }
+  },
+  {
+    "text": "\u092e\u0948\u0902 \u0939\u094b\u092e \u0932\u094b\u0928 \u0915\u0948\u0938\u0947 \u091a\u0941\u0915\u093e\u090a\u0902\u0917\u093e?",
+    "intent": "home_loan_repayment",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "main home loan kaise chukaayuungaa?",
+    "intent": "home_loan_repayment",
+    "intent_prediction": {
+      "name": "home_loan_about",
+      "confidence": 0.24583624303340912
+    }
+  },
+  {
+    "text": "\u090f\u0915 \u0938\u0902\u092a\u0924\u094d\u0924\u093f \u0915\u0947 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u092e\u0942\u0932\u094d\u092f \u0915\u093e \u0915\u093f\u0924\u0928\u093e \u092a\u094d\u0930\u0924\u093f\u0936\u0924 \u092e\u0941\u091d\u0947 \u0917\u0943\u0939 \u0932\u094b\u0928 \u0915\u0947 \u0930\u0942\u092a \u092e\u0947\u0902 \u092e\u093f\u0932\u0947\u0917\u093e",
+    "intent": "home_loan_security",
+    "intent_prediction": {
+      "name": "education_loan_eligibility",
+      "confidence": 0.24291305243968964
+    }
+  },
+  {
+    "text": "\u0939\u094b\u092e \u0932\u094b\u0928 \u0915\u0947 \u0932\u093f\u090f \u092e\u0948\u0902 \u0938\u093f\u0915\u094d\u092f\u094b\u0930\u093f\u091f\u0940 \u0915\u0947 \u0924\u094c\u0930 \u092a\u0930 \u0915\u094d\u092f\u093e \u0930\u0916 \u0938\u0915\u0924\u093e \u0939\u0942\u0902",
+    "intent": "home_loan_security",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "home loan ke liye main security ke taur par kya rakh saktaa hum",
+    "intent": "home_loan_security",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "ek sampatti ke surakshit mulya kaa kitna pratishat mujhe grih loan ke rup main milegaa",
+    "intent": "home_loan_security",
+    "intent_prediction": {
+      "name": "education_loan_eligibility",
+      "confidence": 0.30113768577575684
+    }
+  },
+  {
+    "text": "How much percentage of secured value of a property I will get as home loan",
+    "intent": "home_loan_security",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "What can I put as security for home loan",
+    "intent": "home_loan_security",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0939\u094b\u092e \u0932\u094b\u0928 \u0928\u093f\u092a\u091f\u093e\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u0928\u094d\u092f\u0942\u0928\u0924\u092e \u092f\u093e \u0905\u0927\u093f\u0915\u0924\u092e \u0938\u092e\u092f \u0915\u094d\u092f\u093e \u0939\u0948",
+    "intent": "home_loan_tenure",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0905\u0927\u093f\u0915\u0924\u092e \u0905\u0935\u0927\u093f \u0915\u094d\u092f\u093e \u0939\u0948 \u091c\u093f\u0938\u0915\u0947 \u0932\u093f\u090f \u092e\u0948\u0902 \u0939\u094b\u092e \u0932\u094b\u0928 \u0932\u0947 \u0938\u0915\u0924\u093e \u0939\u0942\u0902?",
+    "intent": "home_loan_tenure",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "What is the minimum or maximum time to settle home loan",
+    "intent": "home_loan_tenure",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "adhiktam avadhi kya he jiske liye main home loan le saktaa hum?",
+    "intent": "home_loan_tenure",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "What is the maximum term for which I can avail a Home Loan ?",
+    "intent": "home_loan_tenure",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "home loan nipataane ke liye nunatam yaa adhiktam samay kya he",
+    "intent": "home_loan_tenure",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Do I need a co-applicant for the loan?",
+    "intent": "loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "agar meraa bank main khaataa nahin he, to kya main ab bhi nae loan kaa laabh uthaa saktaa hum?",
+    "intent": "loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "mujhe loan aavedan kahaan milegaa?",
+    "intent": "loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "If I don't have an account with Bank, can I still avail of a New Loans?",
+    "intent": "loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0905\u0917\u0930 \u092e\u0947\u0930\u093e \u092c\u0948\u0902\u0915 \u092e\u0947\u0902 \u0916\u093e\u0924\u093e \u0928\u0939\u0940\u0902 \u0939\u0948, \u0924\u094b \u0915\u094d\u092f\u093e \u092e\u0948\u0902 \u0905\u092c \u092d\u0940 \u0928\u090f \u0932\u094b\u0928 \u0915\u093e \u0932\u093e\u092d \u0909\u0920\u093e \u0938\u0915\u0924\u093e \u0939\u0942\u0902?",
+    "intent": "loan_application",
+    "intent_prediction": {
+      "name": "car_loan_application",
+      "confidence": 0.23852117359638214
+    }
+  },
+  {
+    "text": "\u0915\u094d\u092f\u093e \u092e\u0941\u091d\u0947 \u0932\u094b\u0928 \u0915\u0947 \u0932\u093f\u090f \u0938\u0939-\u0906\u0935\u0947\u0926\u0915 \u0915\u0940 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e \u0939\u0948?",
+    "intent": "loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "loan ke liye koun se dastavej aavashyak hai?",
+    "intent": "loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "kya mujhe loan ke liye sah-aavedak kii aavashyaktaa he?",
+    "intent": "loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "When do I start paying my EMI?",
+    "intent": "loan_emi",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "In how many installments can you disburse the loan to me?",
+    "intent": "loan_emi",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "What does an EMI mean?",
+    "intent": "loan_emi",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "EMI kaa kya matlab he?",
+    "intent": "loan_emi",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u092e\u0948\u0902 \u0905\u092a\u0928\u0940 \u0908\u090f\u092e\u0906\u0908 \u0915\u093e \u092d\u0941\u0917\u0924\u093e\u0928 \u0915\u092c \u0915\u0930\u0928\u093e \u0936\u0941\u0930\u0942 \u0915\u0930\u0942\u0902\u0917\u093e?",
+    "intent": "loan_emi",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0906\u092a \u092e\u0941\u091d\u0947 \u0915\u093f\u0924\u0928\u0940 \u0915\u093f\u0938\u094d\u0924\u094b\u0902 \u092e\u0947\u0902 \u0932\u094b\u0928 \u0935\u093f\u0924\u0930\u093f\u0924 \u0915\u0930 \u0938\u0915\u0924\u0947 \u0939\u0948\u0902?",
+    "intent": "loan_emi",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "EMI \u0915\u093e \u0915\u094d\u092f\u093e \u092e\u0924\u0932\u092c \u0939\u0948?",
+    "intent": "loan_emi",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "aap mujhe kitni kishton main loan vitarit kar sakate hai?",
+    "intent": "loan_emi",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "main apni iemai kaa bhugtan kab karnaa shuru karuunga?",
+    "intent": "loan_emi",
+    "intent_prediction": {
+      "name": "loan_repayment",
+      "confidence": 0.2178054004907608
+    }
+  },
+  {
+    "text": "Who is responsible for payment of interest and other charges in case of cancellation of loan?",
+    "intent": "loan_interest",
+    "intent_prediction": {
+      "name": "education_loan_eligibility",
+      "confidence": 0.25516724586486816
+    }
+  },
+  {
+    "text": "\u092c\u0948\u0902\u0915 \u0926\u094d\u0935\u093e\u0930\u093e \u0926\u093f\u090f \u091c\u093e\u0928\u0947 \u0935\u093e\u0932\u0947 \u092c\u094d\u092f\u093e\u091c \u0915\u094d\u092f\u093e \u0939\u0948\u0902",
+    "intent": "loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "What are the interest offered by bank",
+    "intent": "loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "bank dwaara die jane vaale byaaj kya hai",
+    "intent": "loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "loan ko radd karne ke maamle main byaaj ke bhugtan or anya shulkon ke liye koun jimmedaar he?",
+    "intent": "loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0932\u094b\u0928 \u0915\u094b \u0930\u0926\u094d\u0926 \u0915\u0930\u0928\u0947 \u0915\u0947 \u092e\u093e\u092e\u0932\u0947 \u092e\u0947\u0902 \u092c\u094d\u092f\u093e\u091c \u0915\u0947 \u092d\u0941\u0917\u0924\u093e\u0928 \u0914\u0930 \u0905\u0928\u094d\u092f \u0936\u0941\u0932\u094d\u0915\u094b\u0902 \u0915\u0947 \u0932\u093f\u090f \u0915\u094c\u0928 \u091c\u093f\u092e\u094d\u092e\u0947\u0926\u093e\u0930 \u0939\u0948?",
+    "intent": "loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "mere loan ke punarbhugtan / khate ke tareeke ko badalane ke liye mujhe kya shulk dena hoga?",
+    "intent": "loan_repayment",
+    "intent_prediction": {
+      "name": "education_loan_eligibility",
+      "confidence": 0.24438655376434326
+    }
+  },
+  {
+    "text": "\u092e\u0947\u0930\u0947 \u0932\u094b\u0928 \u0915\u0947 \u092a\u0941\u0928\u0930\u094d\u092d\u0941\u0917\u0924\u093e\u0928 / \u0916\u093e\u0924\u0947 \u0915\u0947 \u0924\u0930\u0940\u0915\u0947 \u0915\u094b \u092c\u0926\u0932\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u092e\u0941\u091d\u0947 \u0915\u094d\u092f\u093e \u0936\u0941\u0932\u094d\u0915 \u0926\u0947\u0928\u093e \u0939\u094b\u0917\u093e?",
+    "intent": "loan_repayment",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u092e\u0948\u0902 \u0905\u092a\u0928\u0947 \u0932\u094b\u0928 \u0915\u0947 \u0932\u093f\u090f \u092a\u0941\u0928\u0930\u094d\u092d\u0941\u0917\u0924\u093e\u0928 / \u0916\u093e\u0924\u093e \u0915\u0948\u0938\u0947 \u092c\u0926\u0932 \u0938\u0915\u0924\u093e \u0939\u0942\u0902?",
+    "intent": "loan_repayment",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0932\u094b\u0928 \u0915\u0947 \u0932\u093f\u090f \u0915\u093f\u0938 \u0924\u0930\u0939 \u0915\u0940 \u0938\u0902\u092a\u093e\u0930\u094d\u0936\u094d\u0935\u093f\u0915 \u0938\u0941\u0930\u0915\u094d\u0937\u093e \u0915\u0940 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e \u0939\u0948?",
+    "intent": "loan_security",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "What security will i have to provide?",
+    "intent": "loan_security",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "What kind of collateral security is required for loan?",
+    "intent": "loan_security",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "loan ke liye kis tarah kii samparshvik suraksha kii aavashyaktaa he?",
+    "intent": "loan_security",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u092e\u0941\u091d\u0947 \u0915\u094d\u092f\u093e \u0938\u0941\u0930\u0915\u094d\u0937\u093e \u092a\u094d\u0930\u0926\u093e\u0928 \u0915\u0930\u0928\u0940 \u0939\u094b\u0917\u0940?",
+    "intent": "loan_security",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "mujhe kya suraksha pradaan kerani hogi?",
+    "intent": "loan_security",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "mere vyaktigat loan ko sansaadhit hone main kitna samay lagegaa?",
+    "intent": "personal_loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "vetan khaataa mujhe vyaktigat loan praapt karne main kaise madad karata he?",
+    "intent": "personal_loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "vyaktigat loan ke liye mujhe koun se dastavezon ko le janaa chahie",
+    "intent": "personal_loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "How long will it take for my Personal loan to be processed?",
+    "intent": "personal_loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u092e\u0947\u0930\u0947 \u0935\u094d\u092f\u0915\u094d\u0924\u093f\u0917\u0924 \u090b\u0923 \u0915\u094b \u0938\u0902\u0938\u093e\u0927\u093f\u0924 \u0939\u094b\u0928\u0947 \u092e\u0947\u0902 \u0915\u093f\u0924\u0928\u093e \u0938\u092e\u092f \u0932\u0917\u0947\u0917\u093e?",
+    "intent": "personal_loan_application",
+    "intent_prediction": {
+      "name": "car_loan_application",
+      "confidence": 0.20513120293617249
+    }
+  },
+  {
+    "text": "Which documents should I carry at the time of visiting for personal loan",
+    "intent": "personal_loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0935\u094d\u092f\u0915\u094d\u0924\u093f\u0917\u0924 \u090b\u0923 \u0915\u0947 \u0932\u093f\u090f \u092e\u0941\u091d\u0947 \u0915\u094c\u0928 \u0938\u0947 \u0926\u0938\u094d\u0924\u093e\u0935\u0947\u091c\u093c\u094b\u0902 \u0915\u094b \u0932\u0947 \u091c\u093e\u0928\u093e \u091a\u093e\u0939\u093f\u090f",
+    "intent": "personal_loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0935\u0947\u0924\u0928 \u0916\u093e\u0924\u093e \u092e\u0941\u091d\u0947 \u0935\u094d\u092f\u0915\u094d\u0924\u093f\u0917\u0924 \u090b\u0923 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930\u0928\u0947 \u092e\u0947\u0902 \u0915\u0948\u0938\u0947 \u092e\u0926\u0926 \u0915\u0930\u0924\u093e \u0939\u0948?",
+    "intent": "personal_loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "How does a Salary Account help me get a personal loan?",
+    "intent": "personal_loan_application",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "kya mujhe bank se vyaktigat loan praapt karne ke liye koi suraksha yaa samparshvik pradaan karne kii aavashyaktaa he?",
+    "intent": "personal_loan_collateral",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "kya main kisi bhi samparshvik / suraksha ke saath vyaktigat loan praapt kar saktaa hum",
+    "intent": "personal_loan_collateral",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0915\u094d\u092f\u093e \u092e\u0948\u0902 \u0915\u093f\u0938\u0940 \u092d\u0940 \u0938\u0902\u092a\u093e\u0930\u094d\u0936\u094d\u0935\u093f\u0915 / \u0938\u0941\u0930\u0915\u094d\u0937\u093e \u0915\u0947 \u0938\u093e\u0925 \u0935\u094d\u092f\u0915\u094d\u0924\u093f\u0917\u0924 \u090b\u0923 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930 \u0938\u0915\u0924\u093e \u0939\u0942\u0902",
+    "intent": "personal_loan_collateral",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Do I need to provide any security or collateral to obtain a personal loan from Bank?",
+    "intent": "personal_loan_collateral",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Can I get personal loan with out any collateral/security",
+    "intent": "personal_loan_collateral",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0915\u094d\u092f\u093e \u092e\u0941\u091d\u0947 \u092c\u0948\u0902\u0915 \u0938\u0947 \u0935\u094d\u092f\u0915\u094d\u0924\u093f\u0917\u0924 \u090b\u0923 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u0915\u094b\u0908 \u0938\u0941\u0930\u0915\u094d\u0937\u093e \u092f\u093e \u0938\u0902\u092a\u093e\u0930\u094d\u0936\u094d\u0935\u093f\u0915 \u092a\u094d\u0930\u0926\u093e\u0928 \u0915\u0930\u0928\u0947 \u0915\u0940 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e \u0939\u0948?",
+    "intent": "personal_loan_collateral",
+    "intent_prediction": {
+      "name": "car_loan_application",
+      "confidence": 0.23946940898895264
+    }
+  },
+  {
+    "text": "What are the interest rates for personal loan",
+    "intent": "personal_loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "How to get personal loan at less interest rates",
+    "intent": "personal_loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "How much is the least interest rate for taking personal loan",
+    "intent": "personal_loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "personal loan lene ke liye kam se kam byaaj dar kitni he",
+    "intent": "personal_loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "personal loan ke liye byaaj daren kya hai",
+    "intent": "personal_loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0915\u092e \u092c\u094d\u092f\u093e\u091c \u0926\u0930 \u092a\u0930 \u0935\u094d\u092f\u0915\u094d\u0924\u093f\u0917\u0924 \u090b\u0923 \u0915\u0948\u0938\u0947 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930\u0947\u0902",
+    "intent": "personal_loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u092a\u0930\u094d\u0938\u0928\u0932 \u0932\u094b\u0928 \u0932\u0947\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u0915\u092e \u0938\u0947 \u0915\u092e \u092c\u094d\u092f\u093e\u091c \u0926\u0930 \u0915\u093f\u0924\u0928\u0940 \u0939\u0948",
+    "intent": "personal_loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u092a\u0930\u094d\u0938\u0928\u0932 \u0932\u094b\u0928 \u0915\u0947 \u0932\u093f\u090f \u092c\u094d\u092f\u093e\u091c \u0926\u0930\u0947\u0902 \u0915\u094d\u092f\u093e \u0939\u0948\u0902",
+    "intent": "personal_loan_interest",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "kam byaaj dar par vyaktigat loan kaise praapt karen",
+    "intent": "personal_loan_interest",
+    "intent_prediction": {
+      "name": "loan_repayment",
+      "confidence": 0.21937601268291473
+    }
+  },
+  {
+    "text": "\u092e\u0948\u0902 \u0905\u092a\u0928\u093e \u0935\u094d\u092f\u0915\u094d\u0924\u093f\u0917\u0924 \u090b\u0923 \u0915\u0948\u0938\u0947 \u091a\u0941\u0915\u093e \u0938\u0915\u0924\u093e \u0939\u0942\u0902?",
+    "intent": "personal_loan_repayment",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u092e\u0941\u091d\u0947 \u0905\u092a\u0928\u093e \u0935\u094d\u092f\u0915\u094d\u0924\u093f\u0917\u0924 \u090b\u0923 \u091a\u0941\u0915\u093e\u0928\u0947 \u092e\u0947\u0902 \u0915\u093f\u0924\u0928\u093e \u0938\u092e\u092f \u0932\u0917 \u0938\u0915\u0924\u093e \u0939\u0948?",
+    "intent": "personal_loan_repayment",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Is part-prepayment of a Personal Loan allowed?",
+    "intent": "personal_loan_repayment",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "an I repay the Personal loan earlier?",
+    "intent": "personal_loan_repayment",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "\u0915\u094d\u092f\u093e \u092a\u0930\u094d\u0938\u0928\u0932 \u0932\u094b\u0928 \u0915\u093e \u092a\u093e\u0930\u094d\u091f-\u092a\u094d\u0930\u0940\u092a\u0947\u092e\u0947\u0902\u091f \u0905\u0928\u0941\u092e\u0924\u093f \u0939\u0948?",
+    "intent": "personal_loan_repayment",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "How can I repay my Personal Loan?",
+    "intent": "personal_loan_repayment",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "main apana vyaktigat loan kaise chukaa saktaa hum?",
+    "intent": "personal_loan_repayment",
+    "intent_prediction": {
+      "name": "loan_repayment",
+      "confidence": 0.2608676552772522
+    }
+  },
+  {
+    "text": "mujhe apana vyaktigat loan chukaane main kitna samay lag saktaa he?",
+    "intent": "personal_loan_repayment",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "kya personal loan kaa part-prepement anumati he?",
+    "intent": "personal_loan_repayment",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "How long can I take to repay my personal loan?",
+    "intent": "personal_loan_repayment",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "main pehle vyaktigat loan chukaata hum?",
+    "intent": "personal_loan_repayment",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "ghar kab aaoge",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "movie ka rating kya he",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "mausam kaisa he",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "how is the weather outside",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "tell me train schedule",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "what is the cost for pizaa",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 1.0
+    }
+  }
+]

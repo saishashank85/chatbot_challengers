@@ -1,0 +1,156 @@
+# version: "2.0"
+
+# intents:
+#   - greet
+#     #  - use entities : []
+#   - goodbye
+#   - affirm
+#   - deny
+#   - mood_great
+#   - mood_unhappy
+#   - bot_challenge
+#   - branch_info
+#   - account_opening
+#   - login issues
+#   - credit card
+#   - transaction queries
+#   - reg_DG
+#   - Biometrics
+#   - activate_debit
+#   - upi_query
+#   - FD
+#   - RD
+#   - PL apply
+#   - add_fund
+#   - close_account
+#   - new_debit_card
+#   - transfer_fail
+#   #- loan/loan_offered
+#   #- loan/home_loan_about
+#   - block card
+#   - check_sa_balance
+#   - investment_options
+#   - lang_supported
+#   #- loan/car_loan_application
+#   #- loan/car_loan_collateral
+#   #- loan/car_loan_eligibility
+#   #- loan/car_loan_finance
+#   #- loan/car_loan_interest
+#   #- loan/car_loan_repayment
+#   #- loan/education_loan_application
+#   #- loan/education_loan_eligibility
+#   #- loan/education_loan_interest
+#   #- loan/education_loan_repayment
+#   #- loan/education_loan_security
+#   #- loan/education_loan_tenure
+#   #- loan/home_loan_application
+#   #- loan/home_loan_eligibility
+#   #- loan/home_loan_interest
+#   #- loan/home_loan_repayment
+#   #- loan/home_loan_security
+#   #- loan/home_loan_tenure
+#   #- loan/loan_application
+#   #- loan/loan_emi
+#   #- loan/loan_interest
+#   #- loan/loan_repayment
+#   #- loan/loan_security
+#   #- loan/personal_loan_collateral
+#   #- loan/personal_loan_interest
+#   #- loan/personal_loan_repayment
+#   #- loan/personal_loan_application
+#   - process_time
+#   - fraud_dispute
+#   - rate query
+#   - main menu
+#   - loan
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - branch_info
+  - account_opening
+  - login issues
+  - credit card
+  - transaction queries
+  - reg_DG
+  - Biometrics
+  - activate_debit
+  - upi_query
+  - FD
+  - RD
+  - PL apply
+  - add_fund
+  - close_account
+  - new_debit_card
+  - transfer_fail
+  - loan_offered
+  - home_loan_about
+  - block card
+  - check_sa_balance
+  - fraud_dispute
+  - investment_options
+  - lang_supported
+  - car_loan_application
+  - car_loan_collateral
+  - car_loan_eligibility
+  - car_loan_finance
+  - car_loan_interest
+  - car_loan_repayment
+  - education_loan_application
+  - education_loan_eligibility
+  - education_loan_interest
+  - education_loan_repayment
+  - education_loan_security
+  - education_loan_tenure
+  - home_loan_application
+  - home_loan_eligibility
+  - home_loan_interest
+  - home_loan_repayment
+  - home_loan_security
+  - home_loan_tenure
+  - loan_application
+  - loan_emi
+  - loan_interest
+  - loan_repayment
+  - loan_security
+  - personal_loan_collateral
+  - personal_loan_application
+  - personal_loan_interest
+  - personal_loan_repayment
+  - process_time
+  - rate query
+  - main menu
+  - IFSC Code
+  - NEFT/RTGS_Charges
+  - NEFT/RTGS_Dispute
+  - NEFT/RTGS_Information
+  - NEFT/RTGS_Information_Transfer_Limit
+  - NEFT/RTGS_Transaction_Issue
+  - NEFT/RTGS_about
+  - NEFT/RTGS_fast
+  - NEFT/RTGS_transfer
+  - mob_change
+  - upi_refund
+  - vpa_money_recv
+  - fixed_deposit_apply
+  - fixed_deposit_calculator
+  - fixed_deposit_collateral
+  - fixed_deposit_enquiry
+  - fixed_deposit_interest
+  - fixed_deposit_remove
+  - fixed_deposit_tds
+  - fixed_deposit_tenure
+  - recurring_deposit_apply
+  - recurring_deposit_enquiry
+  - recurring_deposit_installment
+  - recurring_deposit_interest
+  - recurring_deposit_withdraw
+  - recurring_deposit_tenure
+  - NEFT
+  - asking_details_of_bot

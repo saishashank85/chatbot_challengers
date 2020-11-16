@@ -1,0 +1,444 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_plz_rephrase
+
+- story: sad path 3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: deny
+  - action: utter_plz_rephrase
+  - intent: deny
+  - action: utter_main
+
+
+- story: about branch
+  steps:
+  - intent: branch_info
+  - action: utter_branch
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_plz_rephrase
+
+- story: greet and account_query
+  steps:
+  - action: utter_greet
+  - intent: account_opening
+  - action: utter_account_open
+
+- story: app_login_query
+  steps:
+    - intent: login issues
+    - action: utter_login_app
+
+- story: transaction_queries
+  steps:
+   - intent: transaction queries
+   - action: utter_trans
+
+- story: cred
+  steps:
+    - intent: credit card
+    - action: utter_cred
+
+- story: digiacnt
+  steps:
+    - intent: reg_DG
+    - action: utter_DG
+
+- story: bio
+  steps:
+    - intent: Biometrics
+    - action : utter_bio
+
+- story: activate_debit
+  steps:
+    - intent: activate_debit
+    - action: utter_activate_debit
+
+- story: block_card
+  steps:
+    - intent: block card
+    - action: utter_block_card
+
+- story: upi query
+  steps:
+    - intent: upi_query
+    - action: utter_upi
+
+- story: FD_open
+  steps:
+   - intent: FD
+   - action: utter_FD
+
+- story: RD_open
+  steps:
+     - intent: RD
+     - action: utter_RD
+
+- story: PL_apply
+  steps:
+    - intent: PL apply
+    - action: utter_PL apply
+
+- story: fund_add_path
+  steps:
+    - intent: add_fund
+    - action: utter_add_fund
+    - action: utter_did_that_help
+    - intent: main menu
+    - action: utter_main
+
+- story: transfer_fail_path
+  steps:
+    - intent: transfer_fail
+    - action: utter_transfer_fail
+    - action: utter_did_that_help
+
+- story: close_account
+  steps:
+    - intent: close_account
+    - action: utter_close_account
+
+- story: new_debit_card
+  steps:
+   - intent: new_debit_card
+   - action: utter_new_debit
+
+- story: loans_offered
+  steps:
+    - intent: loan_offered
+    - action: utter_loan_offered
+    - action: utter_did_that_help
+
+- story: home_loan_query
+  steps:
+    - intent: home_loan_about
+    - action: utter_home_loan_about
+
+- story: balance query
+  steps:
+    - intent: check_sa_balance
+    - action: utter_balance
+    - action: utter_did_that_help
+    - intent: deny
+    - action: utter_plz_rephrase
+
+- story: investment
+  steps:
+    - intent: investment_options
+    - action: utter_inv
+    - intent: deny
+    - action: utter_plz_rephrase
+
+- story: lang
+  steps:
+    - intent: lang_supported
+    - action: utter_lang
+    - intent: main menu
+    - action: utter_main
+
+- story: fraud_dispute
+  steps:
+    - intent: fraud_dispute
+    - action: utter_fraud
+
+- story: rate query
+  steps:
+    - intent: rate query
+    - action: utter_rates
+    - intent: main menu
+    - action: utter_main
+
+- story: menu help
+  steps:
+    - intent: main menu
+    - action: utter_main
+    
+- story: car_loan_application
+  steps:
+     - intent: car_loan_application
+     - action: utter_car_loan_application
+    
+- story: car_loan_collateral
+  steps:
+   - intent: car_loan_collateral
+   - action: utter_car_loan_collateral
+
+- story: car_loan_eligibility
+  steps:
+   - intent: car_loan_eligibility
+   - action: utter_car_loan_eligibility
+
+- story: car_loan_finance
+  steps:
+   - intent: car_loan_finance
+   - action: utter_car_loan_finance
+- story: car_loan_interest
+  steps:
+   - intent: car_loan_interest
+   - action: utter_car_loan_interest
+- story: car_loan_repayment
+  steps:
+   - intent: car_loan_repayment
+   - action: utter_car_loan_repayment
+
+- story: car_loan_application
+  steps:
+   - intent: car_loan_application
+   - action: utter_car_loan_application
+
+- story: car_loan_eligibility
+  steps:
+   - intent: car_loan_eligibility
+   - action: utter_car_loan_eligibility
+
+- story: education_loan_interest
+  steps:
+   - intent: education_loan_interest
+   - action: utter_education_loan_interest
+
+- story: education_loan_repayment
+  steps:
+   - intent: education_loan_repayment
+   - action: utter_education_loan_repayment
+
+- story: education_loan_security
+  steps:
+   - intent: education_loan_security
+   - action: utter_education_loan_security
+
+- story: education_loan_security
+  steps:
+   - intent: education_loan_tenure
+   - action: utter_education_loan_tenure
+
+- story: home_loan_application
+  steps:
+   - intent: home_loan_application
+   - action: utter_home_loan_application
+
+- story: home_loan_eligibility
+  steps:
+   - intent: home_loan_eligibility
+   - action: utter_home_loan_eligibility
+
+- story: home_loan_interest
+  steps:
+   - intent: home_loan_interest
+   - action: utter_home_loan_interest
+
+- story: home_loan_repayment
+  steps:
+   - intent: home_loan_repayment
+   - action: utter_home_repayment
+
+- story: home_loan_security
+  steps:
+   - intent: home_loan_security
+   - action: utter_home_loan_security
+
+- story: home_loan_tenure
+  steps:
+   - intent: home_loan_tenure
+   - action: utter_home_loan_tenure
+
+- story: loan_emi
+  steps:
+   - intent: loan_emi
+   - action: utter_loan_emi
+
+- story: loan_interest
+  steps:
+   - intent: loan_interest
+   - action: utter_loan_interest
+
+- story: loan_repayment
+  steps:
+   - intent: loan_repayment
+   - action: utter_loan_repayment
+
+
+- story: loan_security
+  steps:
+   - intent: loan_security
+   - action: utter_loan_security
+
+- story: personal_loan_interest
+  steps:
+   - intent: personal_loan_interest
+   - action: utter_personal_loan_interest
+
+- story: personal_loan_collateral
+  steps:
+   - intent: personal_loan_collateral
+   - action: utter_personal_loan_collateral
+
+- story: personal_loan_repayment
+  steps:
+   - intent: personal_loan_repayment
+   - action: utter_personal_loan_repayment
+
+- story:  process_time
+  steps:
+   - intent: process_time
+   - action: utter_process_time
+
+- story:  IFSC Code
+  steps:
+   - intent: IFSC Code
+   - action: utter_IFSC Code
+
+- story: NEFT/RTGS_Charges
+  steps:
+   - intent: NEFT/RTGS_Charges
+   - action: utter_NEFT/RTGS_Charges
+
+- story: NEFT/RTGS_Dispute
+  steps:
+  - intent: NEFT/RTGS_Dispute
+  - action: utter_NEFT/RTGS_Dispute
+
+- story: NEFT/RTGS_Information
+  steps:
+  - intent: NEFT/RTGS_Information
+  - action: utter_NEFT/RTGS_Information
+
+- story: NEFT/RTGS_Information_Transfer_Limit
+  steps:
+  - intent: NEFT/RTGS_Information_Transfer_Limit
+  - action: utter_NEFT/RTGS_Information_Transfer_Limit
+
+- story: NEFT/RTGS_Transaction_Issue
+  steps:
+  - intent: NEFT/RTGS_Transaction_Issue
+  - action: utter_NEFT/RTGS_Transaction_Issue
+
+- story: NEFT/RTGS_about
+  steps:
+  - intent: NEFT/RTGS_about
+  - action: utter_NEFT/RTGS_about
+
+- story: NEFT/RTGS_fast
+  steps:
+  - intent: NEFT/RTGS_fast
+  - action: utter_NEFT/RTGS_fast
+
+- story: mob_change
+  steps:
+  - intent: mob_change
+  - action: utter_mob_change
+
+- story: mob_change
+  steps:
+  - intent: mob_change
+  - action: utter_mob_change
+
+- story: upi_refund
+  steps:
+  - intent: upi_refund
+  - action: utter_upi_refund
+
+- story: vpa_money_recv
+  steps:
+   - intent:  vpa_money_recv
+   - action: utter_ vpa_money_recv
+
+- story: fixed_deposit_apply
+  steps:
+   - intent: fixed_deposit_apply
+   - action: utter_fixed_deposit_apply
+
+- story: fixed_deposit_calculator
+  steps:
+   - intent: fixed_deposit_calculator
+   - action: utter_fixed_deposit_calculator
+
+- story: fixed_deposit_collateral
+  steps:
+   - intent: fixed_deposit_collateral
+   - action: utter_fixed_deposit_collateral
+
+- story: fixed_deposit_enquiry
+  steps:
+   - intent: fixed_deposit_enquiry
+   - action: utter_fixed_deposit_enquiry
+
+- story: fixed_deposit_interest
+  steps:
+   - intent: fixed_deposit_interest
+   - action: utter_fixed_deposit_interest
+
+- story: fixed_deposit_remove
+  steps:
+   - intent: fixed_deposit_remove
+   - action: utter_fixed_deposit_remove
+
+- story: fixed_deposit_tds
+  steps:
+   - intent: fixed_deposit_tds
+   - action: utter_fixed_deposit_tds
+
+- story: fixed_deposit_tenure
+  steps:
+   - intent: fixed_deposit_tenure
+   - action: utter_fixed_deposit_tenure
+
+- story: recurring_deposit_apply
+  steps:
+   - intent: recurring_deposit_apply
+   - action: utter_recurring_deposit_apply
+
+- story: recurring_deposit_enquiry
+  steps:
+   - intent: recurring_deposit_enquiry
+   - action: utter_recurring_deposit_enquiry
+
+- story: recurring_deposit_installment
+  steps:
+   - intent: recurring_deposit_installment
+   - action: utter_recurring_deposit_installment
+
+- story: recurring_deposit_interest
+  steps:
+   - intent: recurring_deposit_interest
+   - action: utter_recurring_deposit_interest
+
+- story: recurring_deposit_withdraw
+  steps:
+   - intent: recurring_deposit_withdraw
+   - action: utter_recurring_deposit_withdraw
+
+- story: recurring_deposit_tenure
+  steps:
+   - intent: recurring_deposit_tenure
+   - action: utter_recurring_deposit_tenure
+
+

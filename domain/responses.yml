@@ -1,0 +1,357 @@
+responses:
+  utter_asking_details_of_bot:
+  - text : "Hey, My name is hello india"
+
+  utter_home_repayment:
+  - text : "For your convenience, bank offers various modes for repayment of the home loan. You may issue standing instructions to your banker to pay the installments through ECS (Electronic Clearing System), opt for direct deduction of monthly installments by your employer or issue post-dated cheques from your salary account."
+  utter_greet:
+  - text: "Hey! Iam a DIGIBOT ,How CAN I help you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_branch:
+  - text: "The branch name in Hyderabad is Somajiguda .Visit our website for branch location information. "
+
+  utter_account_open:
+  - text: "Account opening is simple. You only need Aadhar card and no paperwork "
+
+  utter_plz_rephrase:
+  - text: "Sorry cant understand your request.Can you rephrase your question ?"
+
+  utter_login_app:
+    - text: "-check username and password entered(remember its case sensitive)
+      /-if you have forgotten your username or password you can retrieve it by using   'Trouble Logging in' option on login page'
+      /-Or   try internet banking website --https://internet-banking.retail.dbsbank.in/login "
+
+  utter_trans:
+    - text: " you can do transaction using UPI OR BANK transfer"
+
+  utter_cred:
+    - text: "no  we do not provide credit card"
+
+  utter_DG:
+    - text: "you can do ATM withdrawal unlimited times from DBS ATM  AND  3 times for free at other bank "
+
+  utter_bio:
+    - text : "Fingerprint authentication is compulsary within 1 year of account opening."
+
+  utter_activate_debit:
+    - text: "to set your debit card pin  select Menu>my account > Activate Debit Card > enter 3 digit CVV & verify>create new pin"
+
+  utter_upi:
+    - text: "You don't need a UPI PIN for UPI transactions on Digi bank.
+      / •If you need to set up a UPI PIN for other bank accounts, you can set up while linking the A/c via UPI on Digi bank App.
+      / •This PIN can be used for all UPI transactions.
+      / •Follow below steps to set up a UPI IN:-/  1.Login to app/ 2.Tap on UPI -linked A/c’s./ 3.Link New A/c./ 4.Select a bank & an A/c no./ 5.Set a VPA for selected A/c.
+      / 6.Set UPI PIN for this VPA/ 7.Enter debit card details of chosen A/c./ 8.Receive & enter OTP
+      / 9.Enter & Confirm New UPI PIN 10.Click on Done"
+
+  utter_FD:
+    - text: "You can open a Fixed Deposit if you hold a savings account./Tenure - Minimum 3 months to maximum 10 years./Select 'Deposits' from the home screen and follow the instructions.
+      /1. Select 'Fixed deposit'/2. Enter deposit amount (Min INR 5000: Max INR 99,99,999)
+      /3. Select from Popular Plans or click on 'SHOW All PLANS' and enter the desired tenure./4. Select DONE and then CONTINUE
+      / 5. Select Maturity instructions, Nominee and Deposit name.
+      /6. Press NEXT & CONFIRM/7. Agree to the Terms and Conditions for Term Deposit.
+      /And your Fixed Deposit will be created.
+      / For more information on deposit interest rates and tenure, Click https://www.dbs.com/digibank/in/rates-and-fees.page"
+
+  utter_RD:
+    - text: "You can open a recurring deposit if you hold a savings account.
+      /Tenure - 3 months to 5 years.
+      / Select 'Deposits' from the home screen and follow the instructions..
+      / 1. Select 'Recurring deposit'
+      / 2. Enter recurring amount (Min INR 100: Max INR 99,99,999)
+      / 3. Select from Popular Plans or click on 'SHOW All PLANS' and enter the desired tenure.
+      / 4. Select DONE and then CONTINUE
+      /  5. Select Maturity instructions, Nominee and Deposit name.
+      / 6. Press NEXT & CONFIRM
+      / 7. Agree to Terms & Conditions for Term Deposit.
+      / And your Recurring Deposit will be created. For more information on deposit interest rates and tenure, please visit https://www.dbs.com/digibank/in/rates-and-fees.page"
+
+  utter_PL apply:
+    - text: "Dear Customer, EMI postponement or moratorium for digibank Personal loan has been extended to all customers by default. If you do not want your EMI payments to be deferred or postponed and want to continue paying your EMI, please Click Here to submit your request, to continue to pay your EMI as usual.
+      /The digibank app is all you need to apply for a personal loan. All loans will be given out at the sole discretion of DBS Bank India Limited.
+      / For Existing Customers:
+      / Navigate to ‘Personal Loan’ on the dashboard/ menu to start an application.
+      / At digibank we only accept personal loan applications through the app.
+      / •You could also apply for a larger personal loan by sharing your bank details and bank statement with us on the app. For New to bank Customers:
+      / •Download the digibank mobile app on your smartphone.
+      / •Launch the app and click on the 'Get Personal Loan' link on the login page.
+      /•After checking your eligibility you will be redirected to open your digiSavings account.
+      /•Keep your personal details ready, answer a few simple questions and help us setup your account for the loan to be credited into.
+      / •Schedule your biometric appointment for completing your KYC.
+      / •Loan amount will credit in your account once your background checks are done."
+
+  utter_add_fund:
+    - text: "Well, you can add funds to your Digi e-wallet through IMPS or NEFT & to your Digi Savings account via UPI, IMPS or NEFT.\
+        •Currently, funding your Digi account with Debit card, Credit card or Net-banking is not available. \
+        •To add funds to your account, just navigate to the 'Add Money' option from the home page or \
+        •Under Menu > My Account > Saving Account > Settings > Besides available balance - Click on TOP UP and select the desired mode to top up your account."
+
+  utter_transfer_fail:
+    - text: "If you are unable to complete your transfer, please check:
+               •Your account has sufficient funds.
+               •Account’s transfer limit is not exceeded (limits differ based on payment type).
+               •Payee details are correct.
+               •Payee account is active.
+               •Your Digi account is active and is not restricted for transactions - please check if you have received an email from us about your account status (Can’t find it? Search your junk/spam folder with ‘DBS’).
+               •Otherwise, it could be a temporary / technical issue. Please do try again after some time."
+
+  utter_close_account:
+    - text: "• To submit the account closure request, please do the following:
+            Menu > Select Help & Support > Close your account > Enter details of your account held with another bank"
+
+  utter_new_debit:
+    - text: "•To request a debit card: \
+                 Menu > My Account > Request Debit Card > Enter address details > Submit \
+                   *Note: Make sure the address is complete with prominent landmark. \
+                   •You will receive the AWB tracking number in 2-3 working days via SMS once the card is dispatched and debit card will be delivered to you in 7 - 10 days from the day the card is requested"
+
+
+
+  utter_loan_offered:
+    - text: " There are two types of loans provided by our bank. They are:
+           1. Home Loan.\n2. Personal Loan. \n3.Education loan \n4. car Loan "
+
+  utter_home_loan_about:
+    - text: "An home loan is designed to financially aid the applicant in affording the cost of home.\
+       The interest rate for home loan ranges from 8.40% to 8.50% pa.\
+          The following documents are required for an home loan:\n1. Proof of ID. \
+          \n2. Proof of address.\n3. Income proof.\n4. Education proof.\n5. Photos of applicant.
+            \n Home loans are sanctioned within 2-3 working business days.
+        \n The loan tenure for home loan is 5 to 30 years.
+        \n The maximum amount for home loan is up to 5 crore The minimum amount for home loan is Rs. 30 lakhs. "
+
+  utter_block_card:
+    - text: " Well, you can block your card temporarily or permanently if you've misplaced/lost it.\
+             •A temporary block lasts up to 60 days, after which your card is permanently blocked. \
+             •Follow these simple steps to block your card: Menu > My Account > Debit Card > Block this Card \
+             •In case of a Lost mobile/Card or both, please contact our emergency hotline immediately at (Within India): 1860 210 3456 OR 1860 267 1234. \
+             •For International call: +91-44-66854585 OR +91-44-49021180 and notify us, so we can help to block your debit card. \
+             •You can also hotlist your card by sending an SMS though your registered number: SMS HOTLIST on number: 7065154444 and your card will get permanently blocked immediately. \
+             •You can request for a replacement card from the app once you get your new phone."
+  utter_balance:
+    - text : "1.Giving a Missed Call
+              >Give a missed call on a toll- free number 1800 180 2223 or A missed call to the tolled number 0120-2303090 to get back an SMS with your current balance.
+             > The service is free of cost and is available for SB/CA accounts.
+             >2. On Internet Banking
+             \ You could also log on to Internet Banking >>Click on Other Services>>Service Request>>New Request>>EMail Statement Registration
+             >3.By Sending An SMS
+             >You could also send the following SMS to 9264092640  via registered mobile no. ESTMT space last 4 digit of a/c no space Email ID \
+              \ Log in to digibank
+               - Click on account (listed on the bottom of the home screen)\
+               - Key in your UPI PIN to check the balance in your account"
+  utter_inv:
+    - text: "We have several Investment options. In addition to term Deposits (Fixed deposits and Recurring deposits) you can also invest in a flash in a wide range of mutual funds on digibank"
+
+  utter_lang:
+    - text: " I understand hindi and english "
+
+  utter_car_loan_application:
+    - text : "Please refer our website for car loan application related queries"
+
+  utter_car_loan_collateral:
+    - text: " Please refer our website for car loan collateral related queries "
+
+  utter_car_loan_eligibility:
+    - text: " Please refer our website for car loan eligibility related queries"
+  utter_car_loan_finance:
+    - text : 'Please refer our website for car loan finance related queries'
+
+  utter_car_loan_interest:
+    - text : 'Please refer our website for car loan interest rates. The interest rate for home loan ranges from 8.40% to 8.50% pa.'
+
+  utter_car_loan_repayment:
+    - text : 'Please refer our website for education loan application queries'
+
+
+  utter_education_loan_application:
+    - text : 'Please refer our website for education loan eligibility queries'
+
+  utter_education_loan_eligibility:
+    - text : ' Please refer our website for education loan eligibility queries'
+  utter_education_loan_interest:
+    - text : 'Please refer our website for education loan interest rates queries'
+
+  utter_education_loan_repayment:
+    - text : ' Please refer our website for education loan collateral/security queries'
+  utter_education_loan_security:
+    - text: 'Please refer our website for education loan for guarantor and securty qs'
+
+  utter_education_loan_tenure:
+    - text : 'Please refer our website for education loan tenure queries'
+
+  utter_home_loan_application:
+    - text : 'You could collect an application form from our nearest office or simply download it from our website and submit it yourself along with the supporting documents and the processing fee cheque at any HDFC office that is convenient to you.'
+
+  utter_home_loan_eligibility:
+    - text : 'Eligibility depends on various parameters such as age, income, type of employment etc. To check your eligibility, please click here.'
+
+  utter_home_loan_interest:
+     - text: 'Home Loans are available starting from an interest rate of 6.95%. Please click here'
+
+  utter_home_loan_repayment:
+    - text : 'For your convenience, bank offers various modes for repayment of the home loan. You may issue standing instructions to your banker to pay the installments through ECS (Electronic Clearing System), opt for direct deduction of monthly installments by your employer or issue post-dated cheques from your salary account.'
+  utter_home_loan_security:
+    - text : 'You credit rating and worthiness determines your eligibility for a home loan without collateral. It helps if you are a long-standing customer of the bank.'
+
+  utter_process_time:
+    - text : 'Once you submit your application form and the required documents as per Bank''s criteria, you can expect our approval and disbursal within 7 working days, provided everything is in order.
+   \n All loan approvals are at the sole discretion of the bank'
+
+  utter_home_loan_tenure:
+   - text : "Tenure will be based on customer's age, subject to a maximum tenure of 30 years. The applicable tenure for the customer will be displayed while availing of sanction. Customer can also avail for lower tenure, if required."
+
+  utter_loan_application:
+    - text : "You could collect an application form from our nearest office or simply download it from our website and submit it yourself along with the supporting documents and the processing fee cheque at any of our office that is convenient to you."
+
+  utter_loan_emi:
+    - text  : " EMI refers to the Equated Monthly Installment. Once we receive your request for disbursement, we will disburse the loan in full or in installments, which usually do not exceed in number."
+
+  utter_loan_interest:
+    - text : ' You can visit website for information regarding interest rates '
+  utter_loan_repayment:
+    - text : 'For your convenience, bank offers various modes for repayment of the home loan. \
+             \ You may issue standing instructions to your banker to pay the installments through ECS (Electronic Clearing System), \
+              \ opt for direct deduction of monthly installments by your employer or issue post-dated cheques from your salary account. '
+
+  utter_loan_security:
+    - text : 'You can visit website for information regarding collateral '
+
+  utter_personal_loan_interest :
+    - text : ' Please click here to view the Personal Loan Interest Rates '
+
+  utter_personal_loan_repayment :
+   - text:  'Please refer our website for personal loan repayment queries'
+
+  utter_personal_loan_collateral :
+   - text : 'Please refer our website for personal loan collateral queries'
+
+  utter_fraud:
+    - text: "We're here to help you.\
+              \ If you've been a victim of fraud, please chat with our live agent or speak to our customer service officer by calling our helpline numbers 1860 210 3456 OR 1860 267 1234."
+
+  utter_rates:
+    - text: "Well, we pride ourselves on our competitive interest rates, among our other exciting features. Find the interest rate associated with your account, on our website at https://www.abc.com/bank/in/rates-and-fees.html"
+
+  utter_main:
+     - text: " I can help you with the following information :
+                \n 1. Account Opening and Closing
+                \n 2. Branch Information
+                \n 3. Login Issues
+                \n 4. transaction queries
+                \n 5. Card Related
+                \n 6. Biometrics
+                \n 7. Fund Transfer related
+                \n 8. LOAN related
+                \n 9. Managing funds
+                \n 10.Balance Related
+                \n 11.Investment options
+                \n 12.Report Fraud
+                \n 13.Interest Rate
+                \n 14.Account  Features "
+  utter_IFSC Code:
+    - text : 'Please refer to branch locator and code searcher  of our website to know more details'
+
+  utter_NEFT/RTGS_Charges:
+    - text : 'Please refer to NEFT/RTGS Charges section of our website to know more details'
+  utter_NEFT/RTGS_Dispute:
+    - text : 'Please refer to NEFT/RTGS Dispute section of our website to know more details'
+  utter_NEFT/RTGS_Information:
+    - text : 'Please refer to NEFT/RTGS section of our website to know more details'
+  utter_NEFT/RTGS_Information_Transfer_Limit :
+    - text : "The RTGS system has been designed for large value transactions.\
+              \ Minimum amount for remittance through RTGS: Rs.2 lakh '
+        \ Maximum remittance: At branch - There is no upper limit. Through NetBanking - Rs.25 lakh per Customer "
+
+  utter_NEFT/RTGS_Transaction_Issue:
+    - text : "Please follow the rules mentioned in site to do transaction "
+
+  utter_NEFT/RTGS_about :
+    - text : " NEFT is an electronic payment system, used to transfer funds to any part of India. \
+               \  It works on net settlement, unlike RTGS that works on gross settlement, and EFT which is restricted to only 15 centres. "
+
+  utter_NEFT/RTGS_fast:
+    - text : " The transaction will be settled to your beneficiary as per the RBI batch which ideally takes 30 mins to 4 hours. "
+  utter_NEFT/RTGS_transfer:
+    - text : "Steps to make your neft/RTGS funds transfer online are as follows:\n \
+    Go to Funds Transfer tab, and select ‘Transfer to other bank (RTGS)’ \
+    Select account, beneficiary, and enter the relevant details \
+    Accept the Terms and Conditions\
+    Review the details, and, if all is correct, confirm to complete the process"
+
+  utter_NEFT/RTGS_how :
+    - text : " Visit our website "
+  utter_mob_change:
+    - text : "If you change your handset, you will need to:1. Download the Bharat Interface for Money app again 2. Login with your mobile number and password & do OTP VERFCATN "
+
+  utter_upi_refund :
+    - text : "To avoid transaction failures - \
+    \ Ensure that the UPI PIN is entered correctly \
+    \ If the receiver is not on Bharat Interface for Money choose to pay via IFSC instead of mobile number check  and support section for refund"
+
+  utter_vpa_money_recv :
+    - text:  "In iMobile \
+    Login to iMobile and click on UPI. \
+    Click on UPI and then choose Collect via UPI \
+    Enter the details of the transaction such as the VPA of the person you would like to collect from, amount and remarks. \
+    \ If you have multiple accounts/virtual payment addresses, you can choose the VPA you would like to credit. You can also choose if you would like to receive the money immediately or in the next 7 days. Click on Submit \
+    \ Please review the next screen carefully to ensure you have filled all details correctly. \
+    \ Click on Submit to initiate a Collect payment via UPI. When the person you have requested money from authorises the transaction and money is credited into your account, you will be notified."
+
+  utter_fixed_deposit_apply:
+    - text: "Please refer our website for fixed deposit apply related queries "
+
+  utter_fixed_deposit_calculator:
+    - text: "Please refer our website for fixed deposit calculator related queries "
+
+  utter_fixed_deposit_collateral:
+    - text: "Please refer our website for fixed deposit collateral related queries"
+
+  utter_fixed_deposit_enquiry:
+    - text: "Please refer our website for fixed deposit enquiry related queries "
+
+  utter_fixed_deposit_interest:
+    - text: " Please refer our website for fixed deposit interest related queries "
+
+  utter_fixed_deposit_remove:
+    - text: "Please refer our website for fixed deposit remove related queries "
+
+  utter_fixed_deposit_tds:
+    - text: "Please refer our website for fixed deposit tds related queries"
+
+  utter_fixed_deposit_tenure:
+    - text: "Please refer our website for fixed deposit tenure related queries"
+
+
+  utter_recurring_deposit_apply:
+    - text: "Please refer our website for recurring deposit apply related queries"
+
+  utter_recurring_deposit_enquiry:
+    - text: "Please refer our website for recurring deposit enquiry related queries"
+
+  utter_recurring_deposit_installment:
+    - text: " Please refer our website for recurring deposit installment related queries"
+
+  utter_recurring_deposit_interest:
+    - text: "Please refer our website for recurring deposit interest related queries"
+
+  utter_recurring_deposit_withdraw:
+    - text: "Premature withdrawals are allowed, but remember that partial withdrawal is not permitted. "
+
+  utter_recurring_deposit_tenure:
+    - text:  "Please refer our website for recurring deposit tenure related queries "

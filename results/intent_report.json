@@ -1,0 +1,599 @@
+{
+  "activate_debit": {
+    "precision": 0.8,
+    "recall": 0.5,
+    "f1-score": 0.6153846153846154,
+    "support": 8,
+    "confused_with": {
+      "nlu_fallback": 3,
+      "block card": 1
+    }
+  },
+  "home_loan_interest": {
+    "precision": 1.0,
+    "recall": 0.16666666666666666,
+    "f1-score": 0.2857142857142857,
+    "support": 12,
+    "confused_with": {
+      "nlu_fallback": 8,
+      "home_loan_about": 2
+    }
+  },
+  "main menu": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 11,
+    "confused_with": {
+      "nlu_fallback": 11
+    }
+  },
+  "home_loan_repayment": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "education_loan_eligibility": 2,
+      "nlu_fallback": 2,
+      "home_loan_about": 2
+    }
+  },
+  "loan_interest": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "nlu_fallback": 5,
+      "education_loan_eligibility": 1
+    }
+  },
+  "login issues": {
+    "precision": 0.76,
+    "recall": 0.9047619047619048,
+    "f1-score": 0.8260869565217391,
+    "support": 21,
+    "confused_with": {
+      "account_opening": 1,
+      "nlu_fallback": 1
+    }
+  },
+  "FD": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "nlu_fallback": 5
+    }
+  },
+  "loan_repayment": {
+    "precision": 0.72,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.782608695652174,
+    "support": 21,
+    "confused_with": {
+      "nlu_fallback": 2,
+      "education_loan_eligibility": 1
+    }
+  },
+  "deny": {
+    "precision": 1.0,
+    "recall": 0.09090909090909091,
+    "f1-score": 0.16666666666666669,
+    "support": 11,
+    "confused_with": {
+      "nlu_fallback": 10
+    }
+  },
+  "credit card": {
+    "precision": 1.0,
+    "recall": 0.4,
+    "f1-score": 0.5714285714285715,
+    "support": 5,
+    "confused_with": {
+      "nlu_fallback": 2,
+      "block card": 1
+    }
+  },
+  "account_opening": {
+    "precision": 0.55,
+    "recall": 0.7857142857142857,
+    "f1-score": 0.6470588235294117,
+    "support": 14,
+    "confused_with": {
+      "nlu_fallback": 2,
+      "login issues": 1
+    }
+  },
+  "education_loan_application": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 12,
+    "confused_with": {
+      "nlu_fallback": 11,
+      "loan_repayment": 1
+    }
+  },
+  "new_debit_card": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "nlu_fallback": 3,
+      "block card": 1
+    }
+  },
+  "loan_offered": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 16,
+    "confused_with": {
+      "nlu_fallback": 16
+    }
+  },
+  "upi_query": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "nlu_fallback": 2,
+      "login issues": 1,
+      "activate_debit": 1
+    }
+  },
+  "personal_loan_application": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 9,
+    "confused_with": {
+      "nlu_fallback": 8,
+      "car_loan_application": 1
+    }
+  },
+  "lang_supported": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 9,
+    "confused_with": {
+      "nlu_fallback": 9
+    }
+  },
+  "personal_loan_repayment": {
+    "precision": 1.0,
+    "recall": 0.08333333333333333,
+    "f1-score": 0.15384615384615385,
+    "support": 12,
+    "confused_with": {
+      "nlu_fallback": 10,
+      "loan_repayment": 1
+    }
+  },
+  "affirm": {
+    "precision": 1.0,
+    "recall": 0.3,
+    "f1-score": 0.4615384615384615,
+    "support": 10,
+    "confused_with": {
+      "nlu_fallback": 5,
+      "greet": 2
+    }
+  },
+  "education_loan_eligibility": {
+    "precision": 0.5714285714285714,
+    "recall": 0.5714285714285714,
+    "f1-score": 0.5714285714285714,
+    "support": 21,
+    "confused_with": {
+      "nlu_fallback": 8,
+      "loan_repayment": 1
+    }
+  },
+  "rate query": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "nlu_fallback": 6
+    }
+  },
+  "close_account": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8,
+    "confused_with": {
+      "nlu_fallback": 5,
+      "account_opening": 3
+    }
+  },
+  "investment_options": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "nlu_fallback": 6
+    }
+  },
+  "loan_emi": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 9,
+    "confused_with": {
+      "nlu_fallback": 8,
+      "loan_repayment": 1
+    }
+  },
+  "home_loan_application": {
+    "precision": 0.9444444444444444,
+    "recall": 0.7083333333333334,
+    "f1-score": 0.8095238095238096,
+    "support": 24,
+    "confused_with": {
+      "nlu_fallback": 6,
+      "education_loan_eligibility": 1
+    }
+  },
+  "loan_application": {
+    "precision": 1.0,
+    "recall": 0.4666666666666667,
+    "f1-score": 0.6363636363636364,
+    "support": 15,
+    "confused_with": {
+      "nlu_fallback": 7,
+      "car_loan_application": 1
+    }
+  },
+  "personal_loan_collateral": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "nlu_fallback": 5,
+      "car_loan_application": 1
+    }
+  },
+  "home_loan_tenure": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "nlu_fallback": 6
+    }
+  },
+  "home_loan_security": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "nlu_fallback": 4,
+      "education_loan_eligibility": 2
+    }
+  },
+  "fraud_dispute": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 10,
+    "confused_with": {
+      "nlu_fallback": 10
+    }
+  },
+  "RD": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "nlu_fallback": 2,
+      "login issues": 1,
+      "account_opening": 1
+    }
+  },
+  "process_time": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "nlu_fallback": 2,
+      "loan_repayment": 1
+    }
+  },
+  "car_loan_collateral": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "nlu_fallback": 4,
+      "car_loan_application": 2
+    }
+  },
+  "mood_great": {
+    "precision": 1.0,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.8333333333333333,
+    "support": 14,
+    "confused_with": {
+      "nlu_fallback": 4
+    }
+  },
+  "greet": {
+    "precision": 0.875,
+    "recall": 0.8235294117647058,
+    "f1-score": 0.8484848484848485,
+    "support": 17,
+    "confused_with": {
+      "nlu_fallback": 2,
+      "mood_unhappy": 1
+    }
+  },
+  "car_loan_finance": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "car_loan_application": 4,
+      "nlu_fallback": 2
+    }
+  },
+  "branch_info": {
+    "precision": 1.0,
+    "recall": 0.3,
+    "f1-score": 0.4615384615384615,
+    "support": 10,
+    "confused_with": {
+      "nlu_fallback": 6,
+      "account_opening": 1
+    }
+  },
+  "home_loan_eligibility": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "nlu_fallback": 4,
+      "education_loan_eligibility": 2
+    }
+  },
+  "Biometrics": {
+    "precision": 1.0,
+    "recall": 0.375,
+    "f1-score": 0.5454545454545454,
+    "support": 8,
+    "confused_with": {
+      "nlu_fallback": 3,
+      "login issues": 2
+    }
+  },
+  "loan_security": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "nlu_fallback": 6
+    }
+  },
+  "home_loan_about": {
+    "precision": 0.7777777777777778,
+    "recall": 0.7,
+    "f1-score": 0.7368421052631577,
+    "support": 20,
+    "confused_with": {
+      "nlu_fallback": 6
+    }
+  },
+  "car_loan_application": {
+    "precision": 0.5945945945945946,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.7213114754098361,
+    "support": 24,
+    "confused_with": {
+      "nlu_fallback": 2
+    }
+  },
+  "goodbye": {
+    "precision": 1.0,
+    "recall": 0.9,
+    "f1-score": 0.9473684210526316,
+    "support": 10,
+    "confused_with": {
+      "nlu_fallback": 1
+    }
+  },
+  "education_loan_interest": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 9,
+    "confused_with": {
+      "nlu_fallback": 8,
+      "loan_repayment": 1
+    }
+  },
+  "check_sa_balance": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 7,
+    "confused_with": {
+      "nlu_fallback": 7
+    }
+  },
+  "block card": {
+    "precision": 0.625,
+    "recall": 0.4166666666666667,
+    "f1-score": 0.5,
+    "support": 12,
+    "confused_with": {
+      "nlu_fallback": 7
+    }
+  },
+  "car_loan_eligibility": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "car_loan_application": 4,
+      "nlu_fallback": 2
+    }
+  },
+  "education_loan_repayment": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "nlu_fallback": 6
+    }
+  },
+  "add_fund": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 10,
+    "confused_with": {
+      "nlu_fallback": 9,
+      "account_opening": 1
+    }
+  },
+  "education_loan_security": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "nlu_fallback": 6
+    }
+  },
+  "personal_loan_interest": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 9,
+    "confused_with": {
+      "nlu_fallback": 8,
+      "loan_repayment": 1
+    }
+  },
+  "transaction queries": {
+    "precision": 1.0,
+    "recall": 0.16666666666666666,
+    "f1-score": 0.2857142857142857,
+    "support": 12,
+    "confused_with": {
+      "nlu_fallback": 9,
+      "account_opening": 1
+    }
+  },
+  "reg_DG": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 8,
+    "confused_with": {
+      "nlu_fallback": 4
+    }
+  },
+  "PL apply": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "nlu_fallback": 5,
+      "home_loan_application": 1
+    }
+  },
+  "mood_unhappy": {
+    "precision": 0.9333333333333333,
+    "recall": 1.0,
+    "f1-score": 0.9655172413793104,
+    "support": 14,
+    "confused_with": {}
+  },
+  "car_loan_repayment": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "nlu_fallback": 4,
+      "car_loan_application": 2
+    }
+  },
+  "education_loan_tenure": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "nlu_fallback": 6
+    }
+  },
+  "car_loan_interest": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "nlu_fallback": 6
+    }
+  },
+  "out_of_scope": {
+    "precision": 1.0,
+    "recall": 0.4,
+    "f1-score": 0.5714285714285715,
+    "support": 10,
+    "confused_with": {
+      "nlu_fallback": 6
+    }
+  },
+  "transfer_fail": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 10,
+    "confused_with": {
+      "nlu_fallback": 8,
+      "login issues": 1,
+      "account_opening": 1
+    }
+  },
+  "micro avg": {
+    "precision": 0.7760617760617761,
+    "recall": 0.34067796610169493,
+    "f1-score": 0.4734982332155477,
+    "support": 590
+  },
+  "macro avg": {
+    "precision": 0.35252631202631207,
+    "recall": 0.21746286393345218,
+    "f1-score": 0.24352182005539574,
+    "support": 590
+  },
+  "weighted avg": {
+    "precision": 0.478159591795185,
+    "recall": 0.34067796610169493,
+    "f1-score": 0.3625499743284904,
+    "support": 590
+  }
+}

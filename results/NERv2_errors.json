@@ -1,0 +1,1382 @@
+[
+  {
+    "text": "Where   is branch in Hyderabad ?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 30,
+        "value": "Hyderabad",
+        "entity": "address"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "address",
+        "start": 21,
+        "end": 30,
+        "confidence_entity": 0.7834942936897278,
+        "value": "Hyderabad",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Where is DBS Bank ?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 12,
+        "value": "DBS",
+        "entity": "Bank"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "Bank",
+        "start": 9,
+        "end": 12,
+        "confidence_entity": 0.9558545351028442,
+        "value": "DBS",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "DBS bank kaha hai",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "DBS",
+        "entity": "Bank"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "hi",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "Bank",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.8746099472045898,
+        "value": "DBS",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "mujhe DBS mein account kholna hai",
+    "entities": [
+      {
+        "start": 6,
+        "end": 9,
+        "value": "DBS",
+        "entity": "Bank"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "hi",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "Bank",
+        "start": 6,
+        "end": 9,
+        "confidence_entity": 0.9424021244049072,
+        "value": "DBS",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Aadhar OTP not recvd",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "Aadhar",
+        "entity": "ID"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "ID",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.6833678483963013,
+        "value": "Aadhar",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "how to link Aadhar card?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 18,
+        "value": "Aadhar",
+        "entity": "ID"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "ID",
+        "start": 12,
+        "end": 18,
+        "confidence_entity": 0.8354285359382629,
+        "value": "Aadhar",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I was not allowed to login to my app and get error",
+    "entities": [
+      {
+        "start": 33,
+        "end": 36,
+        "value": "app",
+        "entity": "account_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "account_type",
+        "start": 33,
+        "end": 36,
+        "confidence_entity": 0.8046621084213257,
+        "value": "app",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "app does not open",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "app",
+        "entity": "account_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "account_type",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.9136725664138794,
+        "value": "app",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how to transfer funds from digibank ?",
+    "entities": [
+      {
+        "start": 27,
+        "end": 35,
+        "value": "digibank",
+        "entity": "account_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "account_type",
+        "start": 27,
+        "end": 35,
+        "confidence_entity": 0.6546307802200317,
+        "value": "digibank",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "app transfer to another bank is allowed or not?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "app",
+        "entity": "account_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "account_type",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.8523502945899963,
+        "value": "app",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Please refund  100 rs to my digiapp",
+    "entities": [
+      {
+        "start": 15,
+        "end": 18,
+        "value": "100",
+        "entity": "amount"
+      },
+      {
+        "start": 19,
+        "end": 21,
+        "value": "rs",
+        "entity": "currency"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "currency",
+        "start": 0,
+        "end": 0,
+        "value": "rupees",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "amount",
+        "start": 0,
+        "end": 0,
+        "value": "100",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "amount",
+        "start": 15,
+        "end": 18,
+        "confidence_entity": 0.9119863510131836,
+        "value": "100",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "currency",
+        "start": 19,
+        "end": 21,
+        "confidence_entity": 0.940954327583313,
+        "value": "rs",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "\u092a\u0948\u0938\u0947 \u0915\u0948\u0938\u0947 bhej sakte dusre account ko",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "\u092a\u0948\u0938\u0947",
+        "entity": "currency"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "hi",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "currency",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.6957420110702515,
+        "value": "\u092a\u0948\u0938\u0947",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "lost my ATM Card, please assist",
+    "entities": [
+      {
+        "start": 8,
+        "end": 11,
+        "value": "ATM",
+        "entity": "card_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "card_type",
+        "start": 8,
+        "end": 11,
+        "confidence_entity": 0.9393879175186157,
+        "value": "ATM",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "\u0915\u093e\u0930\u094d\u0921  \u092c\u094d\u0932\u0949\u0915 \u0915\u0948\u0938\u0947 \u0915\u0930\u0947\u0902",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "\u0915\u093e\u0930\u094d\u0921",
+        "entity": "card_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "hi",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "card_type",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.77415531873703,
+        "value": "\u0915\u093e\u0930\u094d\u0921",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "does DBS gives credit card?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 26,
+        "value": "credit card",
+        "entity": "card_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "card_type",
+        "start": 15,
+        "end": 26,
+        "confidence_entity": 0.7512427568435669,
+        "value": "credit card",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how to apply for credt card?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 27,
+        "value": "credt card",
+        "entity": "card_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "card_type",
+        "start": 17,
+        "end": 27,
+        "confidence_entity": 0.8417935967445374,
+        "value": "credit card",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "how can i get credit card?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 25,
+        "value": "credit card",
+        "entity": "card_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "card_type",
+        "start": 14,
+        "end": 25,
+        "confidence_entity": 0.5742297172546387,
+        "value": "credit card",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how many times can I do ATM withdrawal?",
+    "entities": [
+      {
+        "start": 24,
+        "end": 27,
+        "value": "ATM",
+        "entity": "card_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "card_type",
+        "start": 24,
+        "end": 27,
+        "confidence_entity": 0.60472571849823,
+        "value": "ATM",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "3 se zyada baar ATM se paise nikal sakte kya?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 19,
+        "value": "ATM",
+        "entity": "card_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "hi",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "date",
+        "start": 0,
+        "end": 0,
+        "value": [
+          [
+            {
+              "dd": 13,
+              "mm": 11,
+              "yy": 2020,
+              "type": "date"
+            }
+          ],
+          [
+            "kal"
+          ]
+        ],
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "card_type",
+        "start": 16,
+        "end": 19,
+        "confidence_entity": 0.5327635407447815,
+        "value": "ATM",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "\u092e\u0948\u0902 \u0915\u093f\u0924\u0928\u0940 \u092c\u093e\u0930 ATM \u0928\u093f\u0915\u093e\u0938\u0940 \u0915\u0930 \u0938\u0915\u0924\u093e \u0939\u0942\u0902?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 17,
+        "value": "ATM",
+        "entity": "card_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "hi",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "card_type",
+        "start": 14,
+        "end": 17,
+        "confidence_entity": 0.8704533576965332,
+        "value": "ATM",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what are the interest rate offered by digibnk on FD ?",
+    "entities": [
+      {
+        "start": 49,
+        "end": 51,
+        "value": "FD",
+        "entity": "account_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "account_type",
+        "start": 49,
+        "end": 51,
+        "confidence_entity": 0.9657784700393677,
+        "value": "FD",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "how to open a FIXED DEPOSIT",
+    "entities": [
+      {
+        "start": 14,
+        "end": 27,
+        "value": "FIXED DEPOSIT",
+        "entity": "account_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "account_type",
+        "start": 14,
+        "end": 27,
+        "confidence_entity": 0.9146100878715515,
+        "value": "FD",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tell me about FD",
+    "entities": [
+      {
+        "start": 14,
+        "end": 16,
+        "value": "FD",
+        "entity": "account_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "account_type",
+        "start": 14,
+        "end": 16,
+        "confidence_entity": 0.9220544695854187,
+        "value": "FD",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "what are the interest rate offered by digibnk on RD ?",
+    "entities": [
+      {
+        "start": 49,
+        "end": 51,
+        "value": "RD",
+        "entity": "account_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "account_type",
+        "start": 49,
+        "end": 51,
+        "confidence_entity": 0.9763195514678955,
+        "value": "RD",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "how to open a RD a/c",
+    "entities": [
+      {
+        "start": 14,
+        "end": 16,
+        "value": "RD",
+        "entity": "account_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "account_type",
+        "start": 14,
+        "end": 16,
+        "confidence_entity": 0.8628562092781067,
+        "value": "RD",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "what is process of opening recurring deposit account ?",
+    "entities": [
+      {
+        "start": 27,
+        "end": 44,
+        "value": "recurring deposit",
+        "entity": "account_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "account_type",
+        "start": 27,
+        "end": 44,
+        "confidence_entity": 0.9857931733131409,
+        "value": "RD",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "How can I apply for a personal loan and can I make an offline application?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 35,
+        "value": "personal loan",
+        "entity": "loan_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      }
+    ]
+  },
+  {
+    "text": "\u0924\u0941\u0930\u0902\u0924 \u0932\u094b\u0928 \u0915\u0948\u0938\u0947 \u092e\u093f\u0932\u0947\u0917\u093e?",
+    "entities": [
+      {
+        "start": 6,
+        "end": 9,
+        "value": "\u0932\u094b\u0928",
+        "entity": "loan_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "hi",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "loan_type",
+        "start": 6,
+        "end": 9,
+        "confidence_entity": 0.7609440088272095,
+        "value": "\u0932\u094b\u0928",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "can i get PL",
+    "entities": [
+      {
+        "start": 10,
+        "end": 12,
+        "value": "PL",
+        "entity": "loan_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "loan_type",
+        "start": 10,
+        "end": 12,
+        "confidence_entity": 0.9117054343223572,
+        "value": "personal loan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "mujhe Personal Loan chahye",
+    "entities": [
+      {
+        "start": 6,
+        "end": 19,
+        "value": "Personal Loan",
+        "entity": "loan_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "loan_type",
+        "start": 6,
+        "end": 19,
+        "confidence_entity": 0.500676155090332,
+        "value": "personal loan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "mera bank se kisine 5000 inr nikal diye, complaint karna hai",
+    "entities": [
+      {
+        "start": 25,
+        "end": 28,
+        "value": "inr",
+        "entity": "currency"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "hi",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "currency",
+        "start": 0,
+        "end": 0,
+        "value": "rupees",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "amount",
+        "start": 0,
+        "end": 0,
+        "value": "5000",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "date",
+        "start": 0,
+        "end": 0,
+        "value": [
+          [
+            {
+              "dd": 13,
+              "mm": 11,
+              "yy": 2020,
+              "type": "date"
+            }
+          ],
+          [
+            "kal"
+          ]
+        ],
+        "extractor": "NERv2"
+      }
+    ]
+  },
+  {
+    "text": "\u092e\u0947\u0930\u093e \u0916\u093e\u0924\u093e \u092c\u0902\u0926 \u0915\u0930\u0947\u0902",
+    "entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "\u0916\u093e\u0924\u093e",
+        "entity": "account_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "hi",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "account_type",
+        "start": 5,
+        "end": 9,
+        "confidence_entity": 0.8726612329483032,
+        "value": "\u0916\u093e\u0924\u093e",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "mujhe mera savings account Number 55479944210 close karna hai",
+    "entities": [
+      {
+        "start": 11,
+        "end": 26,
+        "value": "savings account",
+        "entity": "account_type"
+      },
+      {
+        "start": 34,
+        "end": 45,
+        "value": "55479944210",
+        "entity": "account_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "hi",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "account_type",
+        "start": 11,
+        "end": 26,
+        "confidence_entity": 0.7494242191314697,
+        "value": "savings account",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "account_number",
+        "start": 34,
+        "end": 45,
+        "confidence_entity": 0.8545665144920349,
+        "value": "55479944210",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "hello  muje naya debit card chahiye",
+    "entities": [
+      {
+        "start": 17,
+        "end": 27,
+        "value": "debit card",
+        "entity": "card_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "card_type",
+        "start": 17,
+        "end": 27,
+        "confidence_entity": 0.6533289551734924,
+        "value": "ATM",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "\u0928\u092f\u093e \u0921\u0947\u092c\u093f\u091f \u0915\u093e\u0930\u094d\u0921 \u091a\u093e\u0939\u093f\u090f",
+    "entities": [
+      {
+        "start": 4,
+        "end": 15,
+        "value": "\u0921\u0947\u092c\u093f\u091f \u0915\u093e\u0930\u094d\u0921",
+        "entity": "card_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "hi",
+        "extractor": "NERv2"
+      }
+    ]
+  },
+  {
+    "text": "can  i get ATM Card?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 14,
+        "value": "ATM",
+        "entity": "card_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "card_type",
+        "start": 11,
+        "end": 14,
+        "confidence_entity": 0.9846863746643066,
+        "value": "ATM",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "do u have mutual fund?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 21,
+        "value": "mutual fund",
+        "entity": "product"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "product",
+        "start": 10,
+        "end": 21,
+        "confidence_entity": 0.4705221951007843,
+        "value": "mutual fund",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "me 40000 rs daal sakta hu MF(product) me?",
+    "entities": [
+      {
+        "start": 3,
+        "end": 8,
+        "value": "40000",
+        "entity": "amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "currency",
+        "start": 0,
+        "end": 0,
+        "value": "rupees",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "amount",
+        "start": 0,
+        "end": 0,
+        "value": "40000",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "amount",
+        "start": 3,
+        "end": 8,
+        "confidence_entity": 0.8002017736434937,
+        "value": "40000",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what is a home loan?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 19,
+        "value": "home loan",
+        "entity": "loan_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "loan_type",
+        "start": 15,
+        "end": 19,
+        "confidence_entity": 0.518667995929718,
+        "value": "loan",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what is the interest rate for home loan?",
+    "entities": [
+      {
+        "start": 30,
+        "end": 39,
+        "value": "home loan",
+        "entity": "loan_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      }
+    ]
+  },
+  {
+    "text": "can  apply for home loan",
+    "entities": [
+      {
+        "start": 15,
+        "end": 24,
+        "value": "home loan",
+        "entity": "loan_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      }
+    ]
+  },
+  {
+    "text": "mujhe 6 hazar crore Rs ka ghar ka loan lena hai",
+    "entities": [
+      {
+        "start": 20,
+        "end": 22,
+        "value": "Rs",
+        "entity": "currency"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "hi",
+        "extractor": "NERv2"
+      },
+      {
+        "entity": "currency",
+        "start": 20,
+        "end": 22,
+        "confidence_entity": 0.9489439725875854,
+        "value": "Rs",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "How long will it take to process loan for Pre-owned Car Loan?",
+    "entities": [
+      {
+        "start": 52,
+        "end": 60,
+        "value": "Car Loan",
+        "entity": "loan_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      }
+    ]
+  },
+  {
+    "text": "What kind of collateral security is required for  education loan?",
+    "entities": [
+      {
+        "start": 50,
+        "end": 64,
+        "value": "education loan",
+        "entity": "loan_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      }
+    ]
+  },
+  {
+    "text": "Do I need to provide collateral to avail of an education loan",
+    "entities": [
+      {
+        "start": 47,
+        "end": 61,
+        "value": "education loan",
+        "entity": "loan_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      }
+    ]
+  },
+  {
+    "text": "How long is the tenure of the Education loan",
+    "entities": [
+      {
+        "start": 30,
+        "end": 44,
+        "value": "Education loan",
+        "entity": "loan_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "en",
+        "extractor": "NERv2"
+      }
+    ]
+  },
+  {
+    "text": "\u092e\u0948\u0902 \u0905\u092a\u0928\u093e \u0935\u094d\u092f\u0915\u094d\u0924\u093f\u0917\u0924 \u090b\u0923 \u0915\u0948\u0938\u0947 \u091a\u0941\u0915\u093e \u0938\u0915\u0924\u093e \u0939\u0942\u0902?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 18,
+        "value": "\u0935\u094d\u092f\u0915\u094d\u0924\u093f\u0917\u0924",
+        "entity": "loan_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 0,
+        "value": "hi",
+        "extractor": "NERv2"
+      }
+    ]
+  }
+]

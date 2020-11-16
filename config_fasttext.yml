@@ -1,0 +1,24 @@
+language: en
+
+pipeline:
+- name: printer.Printer
+  alias: at the start
+- name: WhitespaceTokenizer
+- name: CountVectorsFeaturizer
+- name: CountVectorsFeaturizer
+  analyzer: char_wb
+  min_ngram: 1
+  max_ngram: 3
+- name: component_fasttext.FastTextFeaturizer
+  cache_dir: "/content/drive/My Drive/Projects/Rasa_Chatbot/rasa/indic_fasttext"
+  file: "indicnlp.ft.hi.300.bin"
+  # file: "indicnlp.ft.te.300.bin"
+- name: printer.Printer
+  alias: after fasttext
+- name: DIETClassifier
+  epochs: 20
+
+policies:
+  - name: MemoizationPolicy
+  - name: TEDPolicy
+  - name: RulePolicy
