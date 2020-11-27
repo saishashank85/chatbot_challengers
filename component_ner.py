@@ -146,7 +146,7 @@ class NERv2(EntityExtractor):
         
         try:
             t_std = stand(text)
-            t_num = text2int(text)
+            t_num = num2numeric(text)
             message.set('metadata',{"normalised_text":t_std,"text_to_num":t_num},add_to_output=True)
         except:
             print("Stand")
